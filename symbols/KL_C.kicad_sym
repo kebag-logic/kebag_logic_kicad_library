@@ -186,7 +186,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "C_100n_10V_X7R_0603_10"
+	(symbol "C_100nF_10V_X7R_0603_10"
 		(pin_numbers
 			(hide yes)
 		)
@@ -205,7 +205,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 0.635 -2.54 0)
 			(effects
 				(font
@@ -250,7 +250,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage" "10"
+		(property "Voltage" "50"
 			(at 0 0 0)
 			(effects
 				(font
@@ -259,7 +259,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" " 603-CC603KRX7R6BB102 "
+		(property "Mouser" "603-CC603KRX7R6BB104"
 			(at 0 0 0)
 			(effects
 				(font
@@ -268,7 +268,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "311-4053-1-ND"
+		(property "Digikey" "311-4055-1-ND"
 			(at 0 0 0)
 			(effects
 				(font
@@ -277,7 +277,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C36911391"
+		(property "LCSC" "C519438"
 			(at 0 0 0)
 			(effects
 				(font
@@ -304,7 +304,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "C_100n_10V_X7R_0603_10_0_1"
+		(symbol "C_100nF_10V_X7R_0603_10_0_1"
 			(polyline
 				(pts
 					(xy -2.032 0.762) (xy 2.032 0.762)
@@ -330,7 +330,7 @@
 				)
 			)
 		)
-		(symbol "C_100n_10V_X7R_0603_10_1_1"
+		(symbol "C_100nF_10V_X7R_0603_10_1_1"
 			(pin passive line
 				(at 0 3.81 270)
 				(length 2.794)
@@ -737,5 +737,236 @@
 			)
 		)
 		(embedded_fonts no)
+	)
+	(symbol "C_100nF_35V_X7R_402_10"
+		(extends "C")
+		(property "Reference" "C"
+			(at 0.635 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 0.635 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 0.9652 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "35"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "810-CGA2B3X7R1V104K"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "445-6901-1-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2181802"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Farnell" "2210830"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "cap capacitor"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "C_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "C_100nF_50V_X7R_0603_10"
+		(extends "C")
+		(property "Reference" "C"
+			(at 0.635 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2u2"
+			(at 0.635 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 0.9652 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "20"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "10"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "187-CL10B104KB8NNNC"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "1276-1000-1-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1591"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "cap capacitor"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "C_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 )
