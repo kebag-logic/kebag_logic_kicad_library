@@ -1,0 +1,1286 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "0826-1X4T-43-F" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "J" (id 0) (at -7.62 34.29 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "0826-1X4T-43-F" (id 1) (at -7.62 -44.45 0)
+      (effects (font (size 1.27 1.27)) (justify top left))
+    )
+    (property "Footprint" "0826-1X4T-43-F:BEL_0826-1X4T-43-F" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "PARTREV" "D" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "STANDARD" "Manufacturer Recommendations" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MAXIMUM_PACKAGE_HEIGHT" "15.49mm" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MANUFACTURER" "Bel Fuse" (id 7) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "0826-1X4T-43-F_1_0"
+      (polyline
+        (pts (xy -1.524 -17.78) (xy -7.62 -17.78)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -1.524 -10.16) (xy -7.62 -10.16)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -0.762 -11.811) (xy 0.254 -10.795)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 0.381 -11.938) (xy 1.397 -10.922)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts
+          (xy 0.254 -10.795)
+          (xy -0.635 -11.176)
+          (xy -0.127 -11.684)
+          (xy 0.254 -10.795)
+        )
+        (stroke (width 0.1524)) (fill (type outline))
+      )
+      (polyline
+        (pts
+          (xy 1.397 -10.922)
+          (xy 0.508 -11.303)
+          (xy 1.016 -11.811)
+          (xy 1.397 -10.922)
+        )
+        (stroke (width 0.1524)) (fill (type outline))
+      )
+      (polyline
+        (pts (xy -0.508 -14.859) (xy -1.524 -13.208)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.524 -13.208) (xy -2.54 -14.859)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -0.381 -13.208) (xy -1.524 -13.208)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.524 -13.208) (xy -2.794 -13.208)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -0.508 -14.859) (xy -2.54 -14.859)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.524 -17.78) (xy -1.524 -14.986)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -1.524 -13.081) (xy -1.524 -10.16)) (stroke (width 0.1524))
+      )
+      (text "YLW" (at 1.524 -13.208 0)
+        (effects (font (size 1.016 1.016)) (justify top left))
+      )
+      (polyline
+        (pts (xy -2.794 -23.241) (xy -1.778 -24.892)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.778 -24.892) (xy -0.762 -23.241)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -2.921 -24.892) (xy -1.778 -24.892)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.778 -24.892) (xy -0.508 -24.892)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -2.794 -23.241) (xy -0.762 -23.241)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 2.54 -21.971) (xy 3.556 -20.955)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 3.683 -22.098) (xy 4.699 -21.082)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -1.778 -21.59) (xy -1.778 -23.114)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -1.778 -25.019) (xy -1.778 -26.67)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -2.794 -25.781) (xy -3.81 -26.797)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -3.937 -25.654) (xy -4.953 -26.67)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts
+          (xy 3.556 -20.955)
+          (xy 2.667 -21.336)
+          (xy 3.175 -21.844)
+          (xy 3.556 -20.955)
+        )
+        (stroke (width 0.1524)) (fill (type outline))
+      )
+      (polyline
+        (pts
+          (xy 4.699 -21.082)
+          (xy 3.81 -21.463)
+          (xy 4.318 -21.971)
+          (xy 4.699 -21.082)
+        )
+        (stroke (width 0.1524)) (fill (type outline))
+      )
+      (polyline
+        (pts
+          (xy -3.81 -26.797)
+          (xy -2.921 -26.416)
+          (xy -3.429 -25.908)
+          (xy -3.81 -26.797)
+        )
+        (stroke (width 0.1524)) (fill (type outline))
+      )
+      (polyline
+        (pts
+          (xy -4.953 -26.67)
+          (xy -4.064 -26.289)
+          (xy -4.572 -25.781)
+          (xy -4.953 -26.67)
+        )
+        (stroke (width 0.1524)) (fill (type outline))
+      )
+      (polyline
+        (pts (xy 2.794 -25.019) (xy 1.778 -23.368)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 1.778 -23.368) (xy 0.762 -25.019)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 2.921 -23.368) (xy 1.778 -23.368)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 1.778 -23.368) (xy 0.508 -23.368)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 2.794 -25.019) (xy 0.762 -25.019)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 1.778 -26.67) (xy 1.778 -25.146)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 1.778 -23.241) (xy 1.778 -21.59)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -1.778 -21.59) (xy 0.0 -21.59)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 0.0 -21.59) (xy 1.778 -21.59)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -1.778 -26.67) (xy 0.0 -26.67)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 0.0 -26.67) (xy 1.778 -26.67)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 0.0 -21.59) (xy 0.0 -20.32)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 0.0 -26.67) (xy 0.0 -27.94)) (stroke (width 0.1524))
+      )
+      (text "ORG" (at -6.35 -23.114 0)
+        (effects (font (size 1.016 1.016)) (justify top left))
+      )
+      (text "GRN" (at 3.81 -23.622 0)
+        (effects (font (size 1.016 1.016)) (justify top left))
+      )
+      (polyline
+        (pts (xy 0.0 -20.32) (xy -7.62 -20.32)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 0.0 -27.94) (xy -7.62 -27.94)) (stroke (width 0.1524))
+      )
+      (rectangle (start -7.62 -43.18) (end 7.62 33.02)
+        (stroke (width 0.254)) (fill (type background))
+      )
+      (pin passive line (at -12.7 25.4 0) (length 5.08)
+        (name "TRD1-_1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "10_1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 30.48 0) (length 5.08)
+        (name "TRD1+_1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "11_1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 15.24 0) (length 5.08)
+        (name "TRD2-_1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "5_1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 20.32 0) (length 5.08)
+        (name "TRD2+_1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "4_1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 5.08 0) (length 5.08)
+        (name "TRD3-_1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2_1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 10.16 0) (length 5.08)
+        (name "TRD3+_1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "3_1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 -5.08 0) (length 5.08)
+        (name "TRD4-_1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "9_1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 0.0 0) (length 5.08)
+        (name "TRD4+_1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "8_1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 -17.78 0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "14_1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 -10.16 0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "13_1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 27.94 0) (length 5.08)
+        (name "TRCT1_1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "12_1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 -33.02 0) (length 5.08)
+        (name "SHIELD"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "S1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 17.78 0) (length 5.08)
+        (name "TRCT2_1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "6_1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 7.62 0) (length 5.08)
+        (name "TRCT3_1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1_1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 -2.54 0) (length 5.08)
+        (name "TRCT4_1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "7_1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 -27.94 0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "16_1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 -20.32 0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "15_1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 -35.56 0) (length 5.08)
+        (name "SHIELD__1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "S2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 -38.1 0) (length 5.08)
+        (name "SHIELD__2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "S3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 -40.64 0) (length 5.08)
+        (name "SHIELD__3"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "S4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+    (symbol "0826-1X4T-43-F_2_0"
+      (polyline
+        (pts (xy -1.524 -17.78) (xy -7.62 -17.78)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -1.524 -10.16) (xy -7.62 -10.16)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -0.762 -11.811) (xy 0.254 -10.795)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 0.381 -11.938) (xy 1.397 -10.922)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts
+          (xy 0.254 -10.795)
+          (xy -0.635 -11.176)
+          (xy -0.127 -11.684)
+          (xy 0.254 -10.795)
+        )
+        (stroke (width 0.1524)) (fill (type outline))
+      )
+      (polyline
+        (pts
+          (xy 1.397 -10.922)
+          (xy 0.508 -11.303)
+          (xy 1.016 -11.811)
+          (xy 1.397 -10.922)
+        )
+        (stroke (width 0.1524)) (fill (type outline))
+      )
+      (polyline
+        (pts (xy -0.508 -14.859) (xy -1.524 -13.208)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.524 -13.208) (xy -2.54 -14.859)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -0.381 -13.208) (xy -1.524 -13.208)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.524 -13.208) (xy -2.794 -13.208)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -0.508 -14.859) (xy -2.54 -14.859)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.524 -17.78) (xy -1.524 -14.986)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -1.524 -13.081) (xy -1.524 -10.16)) (stroke (width 0.1524))
+      )
+      (text "YLW" (at 1.524 -13.208 0)
+        (effects (font (size 1.016 1.016)) (justify top left))
+      )
+      (polyline
+        (pts (xy -2.794 -23.241) (xy -1.778 -24.892)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.778 -24.892) (xy -0.762 -23.241)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -2.921 -24.892) (xy -1.778 -24.892)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.778 -24.892) (xy -0.508 -24.892)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -2.794 -23.241) (xy -0.762 -23.241)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 2.54 -21.971) (xy 3.556 -20.955)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 3.683 -22.098) (xy 4.699 -21.082)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -1.778 -21.59) (xy -1.778 -23.114)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -1.778 -25.019) (xy -1.778 -26.67)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -2.794 -25.781) (xy -3.81 -26.797)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -3.937 -25.654) (xy -4.953 -26.67)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts
+          (xy 3.556 -20.955)
+          (xy 2.667 -21.336)
+          (xy 3.175 -21.844)
+          (xy 3.556 -20.955)
+        )
+        (stroke (width 0.1524)) (fill (type outline))
+      )
+      (polyline
+        (pts
+          (xy 4.699 -21.082)
+          (xy 3.81 -21.463)
+          (xy 4.318 -21.971)
+          (xy 4.699 -21.082)
+        )
+        (stroke (width 0.1524)) (fill (type outline))
+      )
+      (polyline
+        (pts
+          (xy -3.81 -26.797)
+          (xy -2.921 -26.416)
+          (xy -3.429 -25.908)
+          (xy -3.81 -26.797)
+        )
+        (stroke (width 0.1524)) (fill (type outline))
+      )
+      (polyline
+        (pts
+          (xy -4.953 -26.67)
+          (xy -4.064 -26.289)
+          (xy -4.572 -25.781)
+          (xy -4.953 -26.67)
+        )
+        (stroke (width 0.1524)) (fill (type outline))
+      )
+      (polyline
+        (pts (xy 2.794 -25.019) (xy 1.778 -23.368)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 1.778 -23.368) (xy 0.762 -25.019)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 2.921 -23.368) (xy 1.778 -23.368)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 1.778 -23.368) (xy 0.508 -23.368)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 2.794 -25.019) (xy 0.762 -25.019)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 1.778 -26.67) (xy 1.778 -25.146)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 1.778 -23.241) (xy 1.778 -21.59)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -1.778 -21.59) (xy 0.0 -21.59)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 0.0 -21.59) (xy 1.778 -21.59)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -1.778 -26.67) (xy 0.0 -26.67)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 0.0 -26.67) (xy 1.778 -26.67)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 0.0 -21.59) (xy 0.0 -20.32)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 0.0 -26.67) (xy 0.0 -27.94)) (stroke (width 0.1524))
+      )
+      (text "ORG" (at -6.35 -23.114 0)
+        (effects (font (size 1.016 1.016)) (justify top left))
+      )
+      (text "GRN" (at 3.81 -23.622 0)
+        (effects (font (size 1.016 1.016)) (justify top left))
+      )
+      (polyline
+        (pts (xy 0.0 -20.32) (xy -7.62 -20.32)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 0.0 -27.94) (xy -7.62 -27.94)) (stroke (width 0.1524))
+      )
+      (rectangle (start -7.62 -33.02) (end 7.62 33.02)
+        (stroke (width 0.254)) (fill (type background))
+      )
+      (pin passive line (at -12.7 25.4 0) (length 5.08)
+        (name "TRD1-_2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "10_2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 30.48 0) (length 5.08)
+        (name "TRD1+_2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "11_2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 15.24 0) (length 5.08)
+        (name "TRD2-_2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "5_2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 20.32 0) (length 5.08)
+        (name "TRD2+_2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "4_2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 5.08 0) (length 5.08)
+        (name "TRD3-_2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2_2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 10.16 0) (length 5.08)
+        (name "TRD3+_2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "3_2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 -5.08 0) (length 5.08)
+        (name "TRD4-_2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "9_2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 0.0 0) (length 5.08)
+        (name "TRD4+_2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "8_2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 -17.78 0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "14_2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 -10.16 0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "13_2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 27.94 0) (length 5.08)
+        (name "TRCT1_2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "12_2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 17.78 0) (length 5.08)
+        (name "TRCT2_2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "6_2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 7.62 0) (length 5.08)
+        (name "TRCT3_2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1_2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 -2.54 0) (length 5.08)
+        (name "TRCT4_2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "7_2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 -27.94 0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "16_2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 -20.32 0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "15_2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+    (symbol "0826-1X4T-43-F_3_0"
+      (polyline
+        (pts (xy -1.524 -17.78) (xy -7.62 -17.78)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -1.524 -10.16) (xy -7.62 -10.16)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -0.762 -11.811) (xy 0.254 -10.795)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 0.381 -11.938) (xy 1.397 -10.922)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts
+          (xy 0.254 -10.795)
+          (xy -0.635 -11.176)
+          (xy -0.127 -11.684)
+          (xy 0.254 -10.795)
+        )
+        (stroke (width 0.1524)) (fill (type outline))
+      )
+      (polyline
+        (pts
+          (xy 1.397 -10.922)
+          (xy 0.508 -11.303)
+          (xy 1.016 -11.811)
+          (xy 1.397 -10.922)
+        )
+        (stroke (width 0.1524)) (fill (type outline))
+      )
+      (polyline
+        (pts (xy -0.508 -14.859) (xy -1.524 -13.208)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.524 -13.208) (xy -2.54 -14.859)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -0.381 -13.208) (xy -1.524 -13.208)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.524 -13.208) (xy -2.794 -13.208)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -0.508 -14.859) (xy -2.54 -14.859)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.524 -17.78) (xy -1.524 -14.986)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -1.524 -13.081) (xy -1.524 -10.16)) (stroke (width 0.1524))
+      )
+      (text "YLW" (at 1.524 -13.208 0)
+        (effects (font (size 1.016 1.016)) (justify top left))
+      )
+      (polyline
+        (pts (xy -2.794 -23.241) (xy -1.778 -24.892)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.778 -24.892) (xy -0.762 -23.241)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -2.921 -24.892) (xy -1.778 -24.892)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.778 -24.892) (xy -0.508 -24.892)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -2.794 -23.241) (xy -0.762 -23.241)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 2.54 -21.971) (xy 3.556 -20.955)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 3.683 -22.098) (xy 4.699 -21.082)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -1.778 -21.59) (xy -1.778 -23.114)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -1.778 -25.019) (xy -1.778 -26.67)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -2.794 -25.781) (xy -3.81 -26.797)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -3.937 -25.654) (xy -4.953 -26.67)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts
+          (xy 3.556 -20.955)
+          (xy 2.667 -21.336)
+          (xy 3.175 -21.844)
+          (xy 3.556 -20.955)
+        )
+        (stroke (width 0.1524)) (fill (type outline))
+      )
+      (polyline
+        (pts
+          (xy 4.699 -21.082)
+          (xy 3.81 -21.463)
+          (xy 4.318 -21.971)
+          (xy 4.699 -21.082)
+        )
+        (stroke (width 0.1524)) (fill (type outline))
+      )
+      (polyline
+        (pts
+          (xy -3.81 -26.797)
+          (xy -2.921 -26.416)
+          (xy -3.429 -25.908)
+          (xy -3.81 -26.797)
+        )
+        (stroke (width 0.1524)) (fill (type outline))
+      )
+      (polyline
+        (pts
+          (xy -4.953 -26.67)
+          (xy -4.064 -26.289)
+          (xy -4.572 -25.781)
+          (xy -4.953 -26.67)
+        )
+        (stroke (width 0.1524)) (fill (type outline))
+      )
+      (polyline
+        (pts (xy 2.794 -25.019) (xy 1.778 -23.368)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 1.778 -23.368) (xy 0.762 -25.019)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 2.921 -23.368) (xy 1.778 -23.368)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 1.778 -23.368) (xy 0.508 -23.368)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 2.794 -25.019) (xy 0.762 -25.019)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 1.778 -26.67) (xy 1.778 -25.146)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 1.778 -23.241) (xy 1.778 -21.59)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -1.778 -21.59) (xy 0.0 -21.59)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 0.0 -21.59) (xy 1.778 -21.59)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -1.778 -26.67) (xy 0.0 -26.67)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 0.0 -26.67) (xy 1.778 -26.67)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 0.0 -21.59) (xy 0.0 -20.32)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 0.0 -26.67) (xy 0.0 -27.94)) (stroke (width 0.1524))
+      )
+      (text "ORG" (at -6.35 -23.114 0)
+        (effects (font (size 1.016 1.016)) (justify top left))
+      )
+      (text "GRN" (at 3.81 -23.622 0)
+        (effects (font (size 1.016 1.016)) (justify top left))
+      )
+      (polyline
+        (pts (xy 0.0 -20.32) (xy -7.62 -20.32)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 0.0 -27.94) (xy -7.62 -27.94)) (stroke (width 0.1524))
+      )
+      (rectangle (start -7.62 -33.02) (end 7.62 33.02)
+        (stroke (width 0.254)) (fill (type background))
+      )
+      (pin passive line (at -12.7 25.4 0) (length 5.08)
+        (name "TRD1-_3"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "10_3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 30.48 0) (length 5.08)
+        (name "TRD1+_3"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "11_3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 15.24 0) (length 5.08)
+        (name "TRD2-_3"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "5_3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 20.32 0) (length 5.08)
+        (name "TRD2+_3"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "4_3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 5.08 0) (length 5.08)
+        (name "TRD3-_3"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2_3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 10.16 0) (length 5.08)
+        (name "TRD3+_3"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "3_3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 -5.08 0) (length 5.08)
+        (name "TRD4-_3"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "9_3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 0.0 0) (length 5.08)
+        (name "TRD4+_3"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "8_3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 -17.78 0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "14_3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 -10.16 0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "13_3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 27.94 0) (length 5.08)
+        (name "TRCT1_3"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "12_3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 17.78 0) (length 5.08)
+        (name "TRCT2_3"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "6_3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 7.62 0) (length 5.08)
+        (name "TRCT3_3"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1_3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 -2.54 0) (length 5.08)
+        (name "TRCT4_3"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "7_3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 -27.94 0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "16_3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 -20.32 0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "15_3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+    (symbol "0826-1X4T-43-F_4_0"
+      (polyline
+        (pts (xy -1.524 -17.78) (xy -7.62 -17.78)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -1.524 -10.16) (xy -7.62 -10.16)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -0.762 -11.811) (xy 0.254 -10.795)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 0.381 -11.938) (xy 1.397 -10.922)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts
+          (xy 0.254 -10.795)
+          (xy -0.635 -11.176)
+          (xy -0.127 -11.684)
+          (xy 0.254 -10.795)
+        )
+        (stroke (width 0.1524)) (fill (type outline))
+      )
+      (polyline
+        (pts
+          (xy 1.397 -10.922)
+          (xy 0.508 -11.303)
+          (xy 1.016 -11.811)
+          (xy 1.397 -10.922)
+        )
+        (stroke (width 0.1524)) (fill (type outline))
+      )
+      (polyline
+        (pts (xy -0.508 -14.859) (xy -1.524 -13.208)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.524 -13.208) (xy -2.54 -14.859)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -0.381 -13.208) (xy -1.524 -13.208)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.524 -13.208) (xy -2.794 -13.208)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -0.508 -14.859) (xy -2.54 -14.859)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.524 -17.78) (xy -1.524 -14.986)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -1.524 -13.081) (xy -1.524 -10.16)) (stroke (width 0.1524))
+      )
+      (text "YLW" (at 1.524 -13.208 0)
+        (effects (font (size 1.016 1.016)) (justify top left))
+      )
+      (polyline
+        (pts (xy -2.794 -23.241) (xy -1.778 -24.892)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.778 -24.892) (xy -0.762 -23.241)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -2.921 -24.892) (xy -1.778 -24.892)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.778 -24.892) (xy -0.508 -24.892)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -2.794 -23.241) (xy -0.762 -23.241)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 2.54 -21.971) (xy 3.556 -20.955)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 3.683 -22.098) (xy 4.699 -21.082)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -1.778 -21.59) (xy -1.778 -23.114)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -1.778 -25.019) (xy -1.778 -26.67)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -2.794 -25.781) (xy -3.81 -26.797)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -3.937 -25.654) (xy -4.953 -26.67)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts
+          (xy 3.556 -20.955)
+          (xy 2.667 -21.336)
+          (xy 3.175 -21.844)
+          (xy 3.556 -20.955)
+        )
+        (stroke (width 0.1524)) (fill (type outline))
+      )
+      (polyline
+        (pts
+          (xy 4.699 -21.082)
+          (xy 3.81 -21.463)
+          (xy 4.318 -21.971)
+          (xy 4.699 -21.082)
+        )
+        (stroke (width 0.1524)) (fill (type outline))
+      )
+      (polyline
+        (pts
+          (xy -3.81 -26.797)
+          (xy -2.921 -26.416)
+          (xy -3.429 -25.908)
+          (xy -3.81 -26.797)
+        )
+        (stroke (width 0.1524)) (fill (type outline))
+      )
+      (polyline
+        (pts
+          (xy -4.953 -26.67)
+          (xy -4.064 -26.289)
+          (xy -4.572 -25.781)
+          (xy -4.953 -26.67)
+        )
+        (stroke (width 0.1524)) (fill (type outline))
+      )
+      (polyline
+        (pts (xy 2.794 -25.019) (xy 1.778 -23.368)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 1.778 -23.368) (xy 0.762 -25.019)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 2.921 -23.368) (xy 1.778 -23.368)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 1.778 -23.368) (xy 0.508 -23.368)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 2.794 -25.019) (xy 0.762 -25.019)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 1.778 -26.67) (xy 1.778 -25.146)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 1.778 -23.241) (xy 1.778 -21.59)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -1.778 -21.59) (xy 0.0 -21.59)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 0.0 -21.59) (xy 1.778 -21.59)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -1.778 -26.67) (xy 0.0 -26.67)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 0.0 -26.67) (xy 1.778 -26.67)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 0.0 -21.59) (xy 0.0 -20.32)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 0.0 -26.67) (xy 0.0 -27.94)) (stroke (width 0.1524))
+      )
+      (text "ORG" (at -6.35 -23.114 0)
+        (effects (font (size 1.016 1.016)) (justify top left))
+      )
+      (text "GRN" (at 3.81 -23.622 0)
+        (effects (font (size 1.016 1.016)) (justify top left))
+      )
+      (polyline
+        (pts (xy 0.0 -20.32) (xy -7.62 -20.32)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 0.0 -27.94) (xy -7.62 -27.94)) (stroke (width 0.1524))
+      )
+      (rectangle (start -7.62 -33.02) (end 7.62 33.02)
+        (stroke (width 0.254)) (fill (type background))
+      )
+      (pin passive line (at -12.7 25.4 0) (length 5.08)
+        (name "TRD1-_4"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "10_4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 30.48 0) (length 5.08)
+        (name "TRD1+_4"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "11_4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 15.24 0) (length 5.08)
+        (name "TRD2-_4"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "5_4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 20.32 0) (length 5.08)
+        (name "TRD2+_4"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "4_4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 5.08 0) (length 5.08)
+        (name "TRD3-_4"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2_4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 10.16 0) (length 5.08)
+        (name "TRD3+_4"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "3_4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 -5.08 0) (length 5.08)
+        (name "TRD4-_4"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "9_4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 0.0 0) (length 5.08)
+        (name "TRD4+_4"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "8_4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 -17.78 0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "14_4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 -10.16 0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "13_4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 27.94 0) (length 5.08)
+        (name "TRCT1_4"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "12_4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 17.78 0) (length 5.08)
+        (name "TRCT2_4"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "6_4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 7.62 0) (length 5.08)
+        (name "TRCT3_4"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1_4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 -2.54 0) (length 5.08)
+        (name "TRCT4_4"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "7_4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 -27.94 0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "16_4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 -20.32 0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "15_4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)
