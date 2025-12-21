@@ -22,7 +22,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "KL:PinHeader_1x2_2.54mm"
 			(at 0 0 0)
 			(effects
 				(font

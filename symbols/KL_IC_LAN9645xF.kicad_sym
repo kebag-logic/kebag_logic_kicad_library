@@ -50,8 +50,26 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "LAN96455F-I/8MW"
+		(property "Mouser" "579-LAN96455FTI8MW "
 			(at 15.24 25.908 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "150-LAN96455FT-I/8MWTR-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -28,7 +28,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KL_Footprints:C_0603"
+		(property "Footprint" "KL:R_0603"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -207,7 +207,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "KL:R_0603"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -461,7 +461,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "KL:R_0603"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -588,7 +588,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "KL:R_0603"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -715,7 +715,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "KL:R_0603"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -842,7 +842,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "KL:R_0603"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -969,7 +969,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "KL:R_0603"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -1096,7 +1096,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "KL:R_0603"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -1223,7 +1223,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "KL:R_0603"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -1351,7 +1351,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "KL:R_0603"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -1478,7 +1478,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "KL:R_0603"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -1605,7 +1605,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "KL:R_0603"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -1732,7 +1732,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "KL:R_0603"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -1859,7 +1859,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "KL:R_0603"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -1986,7 +1986,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "KL:R_0603"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -2113,7 +2113,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "KL:R_0603"
 			(at -1.778 0 90)
 			(effects
 				(font
