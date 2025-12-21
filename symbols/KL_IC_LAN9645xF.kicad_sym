@@ -7,7 +7,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 15.24 21.59 0)
+			(at 12.954 3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23,8 +23,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_QFP:TQFP-128_14x14mm_P0.4mm"
-			(at 16.002 23.622 0)
+		(property "Footprint" "KL:TQFP-128_14x14mm_P0.4mm_with_EPAD"
+			(at 13.716 5.842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51,7 +51,7 @@
 			)
 		)
 		(property "Mouser" "579-LAN96455FTI8MW "
-			(at 15.24 25.908 0)
+			(at 12.954 8.128 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2638,24 +2638,6 @@
 		)
 		(symbol "lan9645xF_128_TQFP_4_0"
 			(pin input line
-				(at -5.08 22.86 0)
-				(length 2.54)
-				(name "RESREF"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "51"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
 				(at -5.08 -5.08 0)
 				(length 5.08)
 				(name "S1.TX_N"
@@ -2810,6 +2792,24 @@
 					)
 				)
 				(number "45"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 31.75 -10.16 180)
+				(length 2.54)
+				(name "RESREF"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "51"
 					(effects
 						(font
 							(size 1.27 1.27)
