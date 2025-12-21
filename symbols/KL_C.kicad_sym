@@ -214,7 +214,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "KL_Footprints:C_0603"
 			(at 0.9652 -3.81 0)
 			(effects
 				(font
@@ -398,7 +398,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "KL_Footprints:C_0603"
 			(at 0.9652 -3.81 0)
 			(effects
 				(font
@@ -582,7 +582,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "KL_Footprints:C_0603"
 			(at 0.9652 -3.81 0)
 			(effects
 				(font
@@ -758,7 +758,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "KL_Footprints:C_0603"
 			(at 0.9652 -3.81 0)
 			(effects
 				(font
@@ -869,7 +869,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "KL_Footprints:C_0603"
 			(at 0.9652 -3.81 0)
 			(effects
 				(font
@@ -960,7 +960,7 @@
 			)
 		)
 	)
-	(symbol "C_100nF_35V_X7R_402_10"
+	(symbol "C_100nF_35V_X7R_0402_10"
 		(extends "C")
 		(property "Reference" "C"
 			(at 0.635 2.54 0)
@@ -980,7 +980,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "KL_Footprints:C_0403"
 			(at 0.9652 -3.81 0)
 			(effects
 				(font
@@ -1091,7 +1091,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2u2"
+		(property "Value" "100nF"
 			(at 0.635 -2.54 0)
 			(effects
 				(font
@@ -1100,7 +1100,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "KL_Footprints:C_0603"
 			(at 0.9652 -3.81 0)
 			(effects
 				(font
@@ -1127,7 +1127,7 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" "20"
+		(property "Tolerance" "10"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1136,7 +1136,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage" "10"
+		(property "Voltage" "50"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1191,6 +1191,117 @@
 			)
 		)
 	)
+	(symbol "C_10nF_25V_X7R_0603_20"
+		(extends "C")
+		(property "Reference" "C"
+			(at 0.635 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10nF"
+			(at 0.635 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "KL_Footprints:C_0603"
+			(at 0.9652 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "20"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "25"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "603-AC603KRX7R8BB103"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "311-3111-1-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C726559"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "cap capacitor"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "C_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(symbol "C_10pF_25V_C0G_0603_5"
 		(extends "C")
 		(property "Reference" "C"
@@ -1211,7 +1322,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "KL_Footprints:C_0603"
 			(at 0.9652 -3.81 0)
 			(effects
 				(font
@@ -1322,7 +1433,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "KL_Footprints:C_0603"
 			(at 0.9652 -3.81 0)
 			(effects
 				(font
@@ -1413,7 +1524,7 @@
 			)
 		)
 	)
-	(symbol "C_10uF_10V_X5R_0603_20"
+	(symbol "C_22uF_10V_X5R_0603_20"
 		(extends "C_10uF_25V_X5R_0603_20")
 		(property "Reference" "C"
 			(at 0.635 2.54 0)
@@ -1433,7 +1544,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "KL_Footprints:C_0603"
 			(at 0.9652 -3.81 0)
 			(effects
 				(font
