@@ -186,7 +186,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "C_100nF_10V_X7R_0603_10"
+	(symbol "C_100n_10V_X7R_0603_10"
 		(pin_numbers
 			(hide yes)
 		)
@@ -205,7 +205,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n"
 			(at 0.635 -2.54 0)
 			(effects
 				(font
@@ -304,7 +304,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "C_100nF_10V_X7R_0603_10_0_1"
+		(symbol "C_100n_10V_X7R_0603_10_0_1"
 			(polyline
 				(pts
 					(xy -2.032 0.762) (xy 2.032 0.762)
@@ -330,7 +330,7 @@
 				)
 			)
 		)
-		(symbol "C_100nF_10V_X7R_0603_10_1_1"
+		(symbol "C_100n_10V_X7R_0603_10_1_1"
 			(pin passive line
 				(at 0 3.81 270)
 				(length 2.794)
@@ -738,7 +738,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "C_100nF_16V_X7R_0603_10"
+	(symbol "C_100n_16V_X7R_0603_10"
 		(extends "C")
 		(property "Reference" "C"
 			(at 0.635 2.54 0)
@@ -749,7 +749,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n"
 			(at 0.635 -2.54 0)
 			(effects
 				(font
@@ -849,8 +849,8 @@
 			)
 		)
 	)
-	(symbol "C_100nF_25V_X7R_0603_10"
-		(extends "C_100nF_10V_X7R_0603_10")
+	(symbol "C_100n_25V_X7R_0603_10"
+		(extends "C_100n_10V_X7R_0603_10")
 		(property "Reference" "C"
 			(at 0.635 2.54 0)
 			(effects
@@ -860,7 +860,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n"
 			(at 0.635 -2.54 0)
 			(effects
 				(font
@@ -960,7 +960,7 @@
 			)
 		)
 	)
-	(symbol "C_100nF_35V_X7R_402_10"
+	(symbol "C_100n_35V_X7R_402_10"
 		(extends "C")
 		(property "Reference" "C"
 			(at 0.635 2.54 0)
@@ -971,7 +971,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n"
 			(at 0.635 -2.54 0)
 			(effects
 				(font
@@ -1080,7 +1080,7 @@
 			)
 		)
 	)
-	(symbol "C_100nF_50V_X7R_0603_10"
+	(symbol "C_100n_50V_X7R_0603_10"
 		(extends "C")
 		(property "Reference" "C"
 			(at 0.635 2.54 0)
@@ -1091,7 +1091,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2u2"
+		(property "Value" "100n"
 			(at 0.635 -2.54 0)
 			(effects
 				(font
@@ -1191,7 +1191,7 @@
 			)
 		)
 	)
-	(symbol "C_10pF_25V_C0G_0603_5"
+	(symbol "C_10p_25V_C0G_0603_5"
 		(extends "C")
 		(property "Reference" "C"
 			(at 0.635 2.54 0)
@@ -1202,7 +1202,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10pF"
+		(property "Value" "10p"
 			(at 0.635 -2.54 0)
 			(effects
 				(font
@@ -1302,7 +1302,7 @@
 			)
 		)
 	)
-	(symbol "C_10uF_25V_X5R_0603_20"
+	(symbol "C_10u_25V_X5R_0603_20"
 		(extends "C")
 		(property "Reference" "C"
 			(at 0.635 2.54 0)
@@ -1413,8 +1413,8 @@
 			)
 		)
 	)
-	(symbol "C_10uF_10V_X5R_0603_20"
-		(extends "C_10uF_25V_X5R_0603_20")
+	(symbol "C_10u_10V_X5R_0603_20"
+		(extends "C_10u_25V_X5R_0603_20")
 		(property "Reference" "C"
 			(at 0.635 2.54 0)
 			(effects
@@ -1424,7 +1424,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22uF"
+		(property "Value" "10u"
 			(at 0.635 -2.54 0)
 			(effects
 				(font

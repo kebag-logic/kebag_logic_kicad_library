@@ -381,7 +381,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "L_1u5H_19A"
+	(symbol "L_1u5_19A"
 		(extends "L")
 		(property "Reference" "L"
 			(at 0.508 -0.508 0)
@@ -391,7 +391,7 @@
 				)
 			)
 		)
-		(property "Value" "1u5H"
+		(property "Value" "1u5"
 			(at -2.032 -0.508 0)
 			(effects
 				(font
