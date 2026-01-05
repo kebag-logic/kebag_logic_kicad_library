@@ -2620,24 +2620,6 @@
 		)
 		(symbol "lan9645xF_128_TQFP_4_0"
 			(pin input line
-				(at -5.08 22.86 0)
-				(length 2.54)
-				(name "RESREF"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "51"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
 				(at -5.08 -5.08 0)
 				(length 5.08)
 				(name "S1.TX_N"
@@ -2792,6 +2774,24 @@
 					)
 				)
 				(number "45"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 31.75 -33.02 180)
+				(length 2.54)
+				(name "RESREF"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "51"
 					(effects
 						(font
 							(size 1.27 1.27)
