@@ -7,12 +7,11 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 15.24 21.59 0)
+			(at 27.432 -1.524 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" ""
@@ -21,6 +20,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Package_QFP:TQFP-128_14x14mm_P0.4mm"
@@ -2494,7 +2494,7 @@
 			(pin input line
 				(at 30.48 -100.33 180)
 				(length 5.08)
-				(name "ISSET"
+				(name "ISET"
 					(effects
 						(font
 							(size 1.27 1.27)
