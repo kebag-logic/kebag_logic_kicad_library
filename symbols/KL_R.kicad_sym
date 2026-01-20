@@ -1148,7 +1148,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1K"
 			(at 0 0 90)
 			(effects
 				(font
