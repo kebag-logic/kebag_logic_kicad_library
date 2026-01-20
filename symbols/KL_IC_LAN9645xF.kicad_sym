@@ -141,7 +141,7 @@
 				)
 			)
 			(pin input line
-				(at -5.08 -82.55 0)
+				(at -5.08 -80.01 0)
 				(length 5.08)
 				(name "XO"
 					(effects
@@ -648,7 +648,7 @@
 				)
 			)
 			(pin input line
-				(at -5.08 -78.74 0)
+				(at 16.51 -92.71 90)
 				(length 5.08)
 				(name "GND_PAD"
 					(effects
