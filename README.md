@@ -56,6 +56,10 @@ Please follow these guidelines to add a component to the library:
 - [Inductor Guidelines](INDUCTOR.md)
 - [Footprint Guidelines](FOOTPRINTS.md)
 
+## Kebag Logic Signal Naming Scheme
+
+Please follow the guidelines in [Signal Naming Convention](SIGNAL_NAMING_CONVENTION.md).
+
 ## License
 
 tbd
