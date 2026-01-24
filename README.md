@@ -60,6 +60,12 @@ Please follow these guidelines to add a component to the library:
 
 Please follow the guidelines in [Signal Naming Convention](SIGNAL_NAMING_CONVENTION.md).
 
+## Kebag Logic Bus Pull-up and Pull-down Resistor Placement
+
+All pull-up and pull-down resistors that define the idle or default level of a shared communication bus (for example I2C SDA and SCL) shall be placed exclusively in the root schematic sheet.
+
+These resistors must not be placed inside hierarchical sub-sheets, regardless of how often the sub-sheet is instantiated. This rule ensures that bus biasing is always visible at top level and prevents accidental duplication or omission.
+
 ## License
 
 tbd
