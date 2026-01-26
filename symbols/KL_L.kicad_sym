@@ -217,7 +217,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KL:L_1u5_SRP7050WA"
+		(property "Footprint" "KL_Footprints:L_1u5_SRP7050WA"
 			(at 0 7.112 0)
 			(effects
 				(font
@@ -326,7 +326,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KL:L_3u3_EXLA1V0603"
+		(property "Footprint" "KL_Footprints:L_3u3_EXLA1V0603"
 			(at 0 7.62 0)
 			(effects
 				(font
