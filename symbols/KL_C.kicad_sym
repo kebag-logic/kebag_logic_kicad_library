@@ -30,7 +30,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "KL_Footprints:C_0603"
 			(at 0.9652 -3.81 0)
 			(effects
 				(font
@@ -214,7 +214,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "KL_Footprints:C_0603"
 			(at 0.9652 -3.81 0)
 			(effects
 				(font
@@ -398,7 +398,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "KL_Footprints:C_0603"
 			(at 0.9652 -3.81 0)
 			(effects
 				(font
@@ -582,7 +582,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "KL_Footprints:C_0603"
 			(at 0.9652 -3.81 0)
 			(effects
 				(font
@@ -758,7 +758,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "KL_Footprints:C_0603"
 			(at 0.9652 -3.81 0)
 			(effects
 				(font
@@ -869,7 +869,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "KL_Footprints:C_0603"
 			(at 0.9652 -3.81 0)
 			(effects
 				(font
@@ -980,7 +980,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "KL_Footprints:C_0603"
 			(at 0.9652 -3.81 0)
 			(effects
 				(font
@@ -1100,7 +1100,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "KL_Footprints:C_0603"
 			(at 0.9652 -3.81 0)
 			(effects
 				(font
@@ -1211,7 +1211,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "KL_Footprints:C_0603"
 			(at 0.9652 -3.81 0)
 			(effects
 				(font
@@ -1322,7 +1322,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "KL_Footprints:C_0603"
 			(at 0.9652 -3.81 0)
 			(effects
 				(font
@@ -1433,7 +1433,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "KL_Footprints:C_0603"
 			(at 0.9652 -3.81 0)
 			(effects
 				(font
@@ -1544,7 +1544,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "KL:C_0603"
+		(property "Footprint" "KL_Footprints:C_0603"
 			(at 0.9652 -3.81 0)
 			(effects
 				(font
@@ -1655,7 +1655,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "KL_Footprints:C_0603"
 			(at 0.9652 -3.81 0)
 			(effects
 				(font
