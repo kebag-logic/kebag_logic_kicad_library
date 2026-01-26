@@ -28,7 +28,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "0826-1X4T-43-F:BEL_0826-1X4T-43-F"
+		(property "Footprint" "KL_Footprints:BEL_0826-1X4T-43-F"
 			(at 0 0 0)
 			(effects
 				(font
