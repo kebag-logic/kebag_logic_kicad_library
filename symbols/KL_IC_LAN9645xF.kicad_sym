@@ -23,7 +23,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Package_QFP:TQFP-128_14x14mm_P0.4mm"
+		(property "Footprint" "KL_Footprints:TQFP-128_14x14mm_P0.4mm"
 			(at 16.002 23.622 0)
 			(effects
 				(font

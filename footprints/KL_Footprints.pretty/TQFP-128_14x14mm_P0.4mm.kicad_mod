@@ -19,6 +19,7 @@
 	(property "Value" "lan9645xf-TQFP-128_14x14mm_P0.4mm"
 		(at 0 9.35 0)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "be747df9-a488-4544-85d8-0f9329d39fc1")
 		(effects
 			(font
