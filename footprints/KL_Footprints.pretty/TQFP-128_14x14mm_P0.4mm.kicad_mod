@@ -1,4 +1,4 @@
-(footprint "lan9645xf-TQFP-128_14x14mm_P0.4mm"
+(footprint "TQFP-128_14x14mm_P0.4mm"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
