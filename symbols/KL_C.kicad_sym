@@ -389,7 +389,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_2u2_10V_Y5V_0603_20"
+		(property "Value" "2u2"
 			(at 0.635 -2.54 0)
 			(effects
 				(font
