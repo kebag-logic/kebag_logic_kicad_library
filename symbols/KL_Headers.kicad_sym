@@ -121,7 +121,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "KL:02x01_2.54mm_Header"
+		(property "Footprint" "KL_Footprints:02x01_2.54mm_Header"
 			(at 0 0 0)
 			(effects
 				(font
