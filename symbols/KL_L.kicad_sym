@@ -217,7 +217,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KL_Footprints:L_1u5_SRP7050WA"
+		(property "Footprint" "KL_Footprints:SRP7050WA-1R5M"
 			(at 0 7.112 0)
 			(effects
 				(font
@@ -226,7 +226,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/SRP7050WA.pdf"
 			(at 0 0 0)
 			(effects
 				(font
@@ -326,7 +326,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KL_Footprints:L_3u3_EXLA1V0603"
+		(property "Footprint" "KL_Footprints:EXLA1V0603"
 			(at 0 7.62 0)
 			(effects
 				(font
