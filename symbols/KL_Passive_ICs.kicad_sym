@@ -27,7 +27,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "KL_Footprints:VXM7"
 			(at 0 0 0)
 			(effects
 				(font

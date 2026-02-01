@@ -54,7 +54,7 @@
 				(hide yes)
 			)
 		)
-		(property "Current Max" "3A"
+		(property "Current Max" ""
 			(at 3.81 -1.27 0)
 			(effects
 				(font
@@ -63,7 +63,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer #" "BLM18PG330SN1D"
+		(property "Manufacturer #" ""
 			(at 19.558 7.112 0)
 			(effects
 				(font
@@ -72,7 +72,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" " 81-BLM18PG330SN1D"
+		(property "Mouser" ""
 			(at 19.812 2.794 0)
 			(effects
 				(font
@@ -81,7 +81,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "490-5220-1-ND"
+		(property "Digikey" ""
 			(at 0 8.89 0)
 			(effects
 				(font
@@ -90,7 +90,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell" "1515742"
+		(property "Farnell" ""
 			(at 0 6.35 0)
 			(effects
 				(font
@@ -99,7 +99,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C88984"
+		(property "LCSC" ""
 			(at 17.272 5.334 0)
 			(effects
 				(font
@@ -213,7 +213,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://pim.murata.com/asset/pim4/ferriteBeadInductortypefilter/ENFA0003_PDF_FERRITEBEADINDUCTORTYPEFILTER?lastModifiedDatetime=20250707190934"
 			(at 0 0 0)
 			(effects
 				(font
@@ -249,7 +249,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" " 81-BLM18PG330SN1D"
+		(property "Mouser" "81-BLM18PG330SN1D"
 			(at -17.78 2.286 0)
 			(effects
 				(font
@@ -258,7 +258,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "490-5220-2-ND;490-5220-1-ND;490-5220-6-ND"
+		(property "Digikey" "490-5220-1-ND"
 			(at -13.716 8.89 0)
 			(effects
 				(font
