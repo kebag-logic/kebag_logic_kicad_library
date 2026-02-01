@@ -54,7 +54,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" " 595-TPS564257DRLR "
+		(property "Mouser" "595-TPS564257DRLR "
 			(at 0 0 0)
 			(effects
 				(font

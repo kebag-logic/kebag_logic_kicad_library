@@ -353,7 +353,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "283-EXLA1V0603-3R3-RCT-ND"
+		(property "Mouser" "704-EXLA1V0603-3R3-R"
 			(at 0 7.62 0)
 			(effects
 				(font
@@ -362,7 +362,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "704-EXLA1V0603-3R3-R"
+		(property "Digikey" "283-EXLA1V0603-3R3-RCT-ND"
 			(at 0 7.62 0)
 			(effects
 				(font

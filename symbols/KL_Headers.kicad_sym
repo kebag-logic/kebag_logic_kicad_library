@@ -17,7 +17,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "01x01_2.54mm_Header"
 			(at 0 -1.27 0)
 			(effects
 				(font
@@ -46,6 +46,33 @@
 		)
 		(property "Description" ""
 			(at 0 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "200-TLW10105GS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "SAM1098-01-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25503131"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -112,7 +139,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "02x01_2.54mm_Header"
 			(at 0 0 0)
 			(effects
 				(font
@@ -140,6 +167,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "571-872242"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "A26543-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5383111"
 			(at 0 0 0)
 			(effects
 				(font
@@ -265,6 +319,42 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x10, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_No" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "737-BHR-20-VUA"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "2057-BHR-20-VUA-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C598987"
 			(at 0 0 0)
 			(effects
 				(font
@@ -901,7 +991,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "03x01_2.54mm_Header"
 			(at 0 1.27 0)
 			(effects
 				(font
@@ -930,6 +1020,33 @@
 		)
 		(property "Description" ""
 			(at 0 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "571-872243"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "A26545-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C429954"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1054,7 +1171,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "06x01_2.54mm_Header"
 			(at 0 2.54 0)
 			(effects
 				(font
@@ -1083,6 +1200,33 @@
 		)
 		(property "Description" ""
 			(at 0 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "571-872206"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "A26550-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5383115"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1294,7 +1438,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "07x01_2.54mm_Header"
 			(at 0 1.27 0)
 			(effects
 				(font
@@ -1323,6 +1467,33 @@
 		)
 		(property "Description" ""
 			(at 0 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "200-TLW10706GS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "SAM1100-07-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25503132"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)

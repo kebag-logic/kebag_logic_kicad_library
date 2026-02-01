@@ -425,7 +425,7 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" ""
+		(property "Tolerance" "10"
 			(at 0 0 0)
 			(effects
 				(font
@@ -434,7 +434,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage" ""
+		(property "Voltage" "16"
 			(at 0 0 0)
 			(effects
 				(font
@@ -443,7 +443,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" ""
+		(property "Mouser" "963-EMK107BJ225KA-T"
 			(at 0 0 0)
 			(effects
 				(font
@@ -452,7 +452,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" ""
+		(property "Digikey" "587-1430-1-ND"
 			(at 0 0 0)
 			(effects
 				(font
@@ -461,7 +461,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C76612"
 			(at 0 0 0)
 			(effects
 				(font
@@ -627,7 +627,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" " 80-C0603C475K8PAC "
+		(property "Mouser" "80-C0603C475K8PACLR"
 			(at 0 0 0)
 			(effects
 				(font
