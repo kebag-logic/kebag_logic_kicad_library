@@ -81,6 +81,24 @@
 				(hide yes)
 			)
 		)
+		(property "I_OUT_A" "4"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "I_VIN_A" "0.000370"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "ki_keywords" "XTPS564257DRLR"
 			(at 0 0 0)
 			(effects

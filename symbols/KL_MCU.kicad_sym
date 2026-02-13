@@ -79,6 +79,15 @@
 				(hide yes)
 			)
 		)
+		(property "I_DD_max_A" "0.544"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "ki_keywords" "Arm Cortex-M7 STM32H7 STM32H742"
 			(at 0 0 0)
 			(effects
