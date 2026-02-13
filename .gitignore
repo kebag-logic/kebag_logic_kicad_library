@@ -1,2 +1,5 @@
+__pycache__/
+
 .DS_Store
 *.bak
+helpers/current_consumption.md
