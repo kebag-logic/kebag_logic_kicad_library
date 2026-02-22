@@ -1148,7 +1148,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10"
 			(at 0 0 90)
 			(effects
 				(font
