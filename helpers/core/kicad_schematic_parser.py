@@ -7,7 +7,7 @@ from .base import KiCadBase
 class KiCadSchematicParser(KiCadBase):
 
     def parse_file(self, path: Path) -> list[Symbol]:
-        sexp = self.load_schematic(path)
+        sexp = self.load_file(path)
         return self._extract_symbols(sexp)
 
     def _extract_symbols(self, sexp) -> list[Symbol]:
