@@ -1,11 +1,9 @@
 #!/usr/bin/env python3
 import argparse
-from calculate_current_consumption import (
-    extract_sheets,
-    collect_all_components,
-    generate_markdown_table,
-    save_markdown_to_file
-)
+from core.kicad_project import KiCadProject
+from core.kicad_schematic_parser import KiCadSchematicParser
+from core.current_analyzer import CurrentAnalyzer
+from core.file_saver import FileSaver
 
 def main():
     parser = argparse.ArgumentParser(
@@ -26,17 +24,36 @@ def main():
     args = parser.parse_args()
 
     # Extract sheets from root schematic
-    all_sheets = extract_sheets(args.root_sch)
+    project = KiCadProject(args.root_sch)
+    all_sheets = project.collect_sheets()
+    if not all_sheets:
+        raise TypeError("Could not extract sheets.")
 
     # Collect all components with currents
-    all_components = collect_all_components(all_sheets)
+    parser = KiCadSchematicParser()
+    all_symbols = []
+
+    for sheet in all_sheets:
+        all_symbols.extend(parser.parse_file(sheet))
+    if not all_symbols:
+        raise TypeError("Could not extract symbols.")
 
     # Generate markdown table
-    md_table = generate_markdown_table(all_components)
+    analyzer = CurrentAnalyzer()
+    components = analyzer.extract_currents(all_symbols)
+    components_per_rail = []
+    for component in components:
+        print(f"{component.reference}: {component.currents}")
+        if "U" in component.reference:
+            components_per_rail.append(component)
+    if not components_per_rail:
+        raise TypeError("Could not extract any components.")
+    current_per_rail = analyzer.summarize_by_rail(components_per_rail)
+    md_current_per_rail=analyzer.generate_markdown_table(current_per_rail)
 
     # Save to file
-    save_markdown_to_file(md_text=md_table, file_path=args.output_md)
-    print(f"Markdown table saved to {args.output_md}")
+    file_saver = FileSaver(path_to_file=args.output_md)
+    file_saver.save_markdown(md_current_per_rail)
 
 if __name__ == "__main__":
     main()
