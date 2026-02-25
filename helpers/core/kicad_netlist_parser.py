@@ -239,4 +239,6 @@ class KiCadNetlistParser(KiCadBase):
             net = clean_net_name(pin_to_net[pin])
             lines.append(f"| {pin} | {pin_name} | {net} |")
 
-        return "\n".join(lines)
+        md_table = "\n".join(lines)
+
+        return md_table, component
