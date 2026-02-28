@@ -19,10 +19,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Value" "LED_{color}_{U_F}_{I_F}"
-			(at 0 -2.54 0)
+			(at 0.254 3.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31,7 +32,7 @@
 			)
 		)
 		(property "Footprint" "KL_Footprints:LED_0603"
-			(at 0 0 0)
+			(at 0.508 4.572 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49,7 +50,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 0 0 0)
+			(at -1.524 -8.128 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -84,6 +85,16 @@
 				(hide yes)
 			)
 		)
+		(property "Color" ""
+			(at 0 -3.556 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Mouser" ""
 			(at 0 0 0)
 			(effects
@@ -109,6 +120,15 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LABEL" "${REFERENCE}:${COLOR}"
+			(at 0.254 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
 			)
 		)
 		(property "ki_keywords" "LED diode"
@@ -239,10 +259,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Value" "LED_{color}_{U_F}_{I_F}"
-			(at 0 -2.54 0)
+			(at -5.588 4.064 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -251,7 +272,7 @@
 			)
 		)
 		(property "Footprint" "KL_Footprints:LED_0603"
-			(at 0 0 0)
+			(at -14.986 -3.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -269,7 +290,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 0 0 0)
+			(at -12.446 8.382 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -278,7 +299,7 @@
 			)
 		)
 		(property "U_F_in_V" "2.1"
-			(at 0 0 0)
+			(at 9.144 4.064 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -287,7 +308,7 @@
 			)
 		)
 		(property "I_F_in_A" "0.03"
-			(at 0 0 0)
+			(at 6.35 4.826 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -296,7 +317,7 @@
 			)
 		)
 		(property "lambda_d_in_nm" "569"
-			(at 0 0 0)
+			(at 11.176 2.794 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -305,7 +326,7 @@
 			)
 		)
 		(property "Mouser" "859-LTST-C190GKT"
-			(at 0 0 0)
+			(at 6.604 6.858 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -323,12 +344,31 @@
 			)
 		)
 		(property "LCSC" "LTST-C190GKT"
-			(at 0 0 0)
+			(at -21.336 4.064 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Color" "Green"
+			(at 0 -3.556 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LABEL" "${REFERENCE}:${COLOR}"
+			(at 0.254 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
 			)
 		)
 		(property "ki_keywords" "LED diode"
@@ -358,6 +398,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Value" "LED_{color}_{U_F}_{I_F}"
@@ -450,6 +491,25 @@
 				(hide yes)
 			)
 		)
+		(property "Color" "Orange"
+			(at 0 -3.556 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LABEL" "${REFERENCE}:${COLOR}"
+			(at 0.254 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+			)
+		)
 		(property "ki_keywords" "LED diode"
 			(at 0 0 0)
 			(effects
@@ -477,10 +537,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Value" "LED_{color}_{U_F}_{I_F}"
-			(at 0 -2.54 0)
+			(at 4.826 8.128 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -489,7 +550,7 @@
 			)
 		)
 		(property "Footprint" "KL_Footprints:LED_0603"
-			(at 0 0 0)
+			(at 1.778 6.604 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -498,7 +559,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.de/datasheet/3/281/1/LTST_C194KRKT.pdf"
-			(at 0 0 0)
+			(at 5.08 3.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -507,7 +568,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 0 0 0)
+			(at 2.286 4.318 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -516,7 +577,7 @@
 			)
 		)
 		(property "U_F_in_V" "2"
-			(at 0 0 0)
+			(at 6.604 3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -525,7 +586,7 @@
 			)
 		)
 		(property "I_F_in_A" "0.03"
-			(at 0 0 0)
+			(at 2.032 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -534,7 +595,7 @@
 			)
 		)
 		(property "lambda_d_in_nm" "639"
-			(at 0 0 0)
+			(at 15.748 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -543,7 +604,7 @@
 			)
 		)
 		(property "Mouser" "859-LTST-C194KRKT"
-			(at 0 0 0)
+			(at 5.842 5.334 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -552,7 +613,7 @@
 			)
 		)
 		(property "Digikey" "160-1835-1-ND"
-			(at 0 0 0)
+			(at 1.27 8.636 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -561,12 +622,31 @@
 			)
 		)
 		(property "LCSC" "C913101"
-			(at 0 0 0)
+			(at 9.652 1.778 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Color" "Red"
+			(at 0.254 -2.794 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LABEL" "${REFERENCE}:${COLOR}"
+			(at 0.254 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
 			)
 		)
 		(property "ki_keywords" "LED diode"
