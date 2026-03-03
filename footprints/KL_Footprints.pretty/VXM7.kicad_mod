@@ -11,7 +11,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.1)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -106,8 +106,19 @@
 		(layer "F.CrtYd")
 		(uuid "2da53466-0d2f-4746-ad6e-c3966e6bb7af")
 	)
+	(fp_rect
+		(start -1.6 -1.25)
+		(end 1.6 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "faedf622-4c36-4dee-bd18-ed83c534b593")
+	)
 	(fp_text user "${REFERENCE}"
-		(at 0 0 0)
+		(at 0 -3.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "d3d4be72-f6ec-45ca-8245-ced813184440")

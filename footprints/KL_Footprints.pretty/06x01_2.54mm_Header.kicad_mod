@@ -19,6 +19,7 @@
 	(property "Value" "06x01_2.54mm_Header"
 		(at 0 15.08 0)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "014739c6-bfe0-4b30-8d38-1c5227606b20")
 		(effects
 			(font
@@ -203,7 +204,7 @@
 		(uuid "04fd46c9-6842-4076-aad2-3daea0666e2d")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 6.35 90)
+		(at 0 -2.38 180)
 		(layer "F.Fab")
 		(uuid "6a621fef-cb49-42fb-b773-9b2668c6e8dd")
 		(effects

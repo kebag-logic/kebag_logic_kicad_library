@@ -347,6 +347,18 @@
 	)
 	(fp_poly
 		(pts
+			(xy -7.752193 -6.410245) (xy -8.092193 -6.880245) (xy -7.412193 -6.880245)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "c6262482-783e-4c22-b19e-28ac7f0c34bd")
+	)
+	(fp_poly
+		(pts
 			(xy -7 -6) (xy -7 7) (xy 7 7) (xy 7 -7) (xy -6 -7)
 		)
 		(stroke
@@ -358,7 +370,7 @@
 		(uuid "feb4d482-4052-4108-a80f-30f12d0a40e8")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 0 0)
+		(at 0 -9.43 0)
 		(layer "F.Fab")
 		(uuid "798266c5-3649-4157-b5e9-65b7ff66727d")
 		(effects

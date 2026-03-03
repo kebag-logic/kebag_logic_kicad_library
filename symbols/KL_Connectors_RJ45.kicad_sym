@@ -38,7 +38,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.belfuse.com/media/drawings/products/magjack%20ICMs/dr-mag-0826-1x4t-43-f.pdf"
 			(at 0 0 0)
 			(effects
 				(font
@@ -125,8 +125,8 @@
 		)
 		(symbol "0826-1X4T-43-F_1_0"
 			(rectangle
-				(start -7.62 -43.18)
-				(end 7.62 33.02)
+				(start -7.62 33.02)
+				(end 7.62 -43.18)
 				(stroke
 					(width 0.254)
 					(type default)
