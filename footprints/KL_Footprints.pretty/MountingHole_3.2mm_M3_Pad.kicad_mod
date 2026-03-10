@@ -8,6 +8,7 @@
 	(property "Reference" "REF**"
 		(at 0 -4.15 0)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "59fcf5de-acc2-43d6-a61d-fdca602200b7")
 		(effects
 			(font
@@ -66,7 +67,7 @@
 	)
 	(fp_circle
 		(center 0 0)
-		(end 3.45 0)
+		(end 4.2 0)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -74,17 +75,6 @@
 		(fill no)
 		(layer "F.CrtYd")
 		(uuid "a6b36c83-93b4-4c00-8797-e3c65017fff9")
-	)
-	(fp_text user "${REFERENCE}"
-		(at 0 0 0)
-		(layer "F.Fab")
-		(uuid "fc23f02a-57c0-482b-82f2-f6b2e0a5cd01")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
 	)
 	(pad "1" thru_hole circle
 		(at 0 0)
