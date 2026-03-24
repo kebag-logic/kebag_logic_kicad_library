@@ -21,14 +21,23 @@ In the following steps we assume the library is located at: `~/kebag_logic_kicad
     3. Click **Add existing library**
     4. Add the following symbol libraries:
 
-        | Library name | Path | Description |
-        |--------------|------|-|
-        | `KL_R` | `${KL_LIB}/symbols/KL_R.kicad_sym` | Contains all resistors. |
-        | `KL_C` | `${KL_LIB}/symbols/KL_C.kicad_sym` | Contains all capacitors. |
-        | `KL_L` | `${KL_LIB}/symbols/KL_L.kicad_sym` | Contains all inductances. |
-        | `KL_MCU` | `${KL_LIB}/symbols/KL_MCU.kicad_sym` | Contains all microcontrollers. |
-        | `KL_Voltage_Regulators` | `${KL_LIB}/symbols/KL_Voltage_Regulators.kicad_sym` | Contains all voltage regulators. |
-        | `KL_TP` | `${KL_LIB}/symbols/KL_TP.kicad_sym` | Contains all test points. |
+        | Library name            | Path                                              | Description |
+        |-------------------------|---------------------------------------------------|-------------|
+        | KL_R                    | {$KL_LIB}/symbols/KL_R.kicad_sym                  | Contains all resistors |
+        | KL_C                    | {$KL_LIB}/symbols/KL_C.kicad_sym                  | Contains all capacitors |
+        | KL_Ferrites             | {$KL_LIB}/symbols/KL_Ferrites.kicad_sym           | Contains all ferrite beads |
+        | KL_Passive_ICs          | {$KL_LIB}/symbols/KL_Passive_ICs.kicad_sym        | Contains all passive ICs |
+        | KL_L                    | {$KL_LIB}/symbols/KL_L.kicad_sym                  | Contains all inductors |
+        | KL_IC_LAN9645xF         | {$KL_LIB}/symbols/KL_IC_LAN9645xF.kicad_sym       | Contains the LAN9645xF |
+        | KL_Connectors_RJ45      | {$KL_LIB}/symbols/KL_Connectors_RJ45.kicad_sym    | Contains all RJ45 connectors |
+        | KL_Voltage_Regulators   | {$KL_LIB}/symbols/KL_Voltage_Regulators.kicad_sym | Contains all voltage regulators |
+        | KL_TP                   | {$KL_LIB}/symbols/KL_TP.kicad_sym                 | Contains all test points |
+        | KL_Headers              | {$KL_LIB}/symbols/KL_Headers.kicad_sym            | Contains all pin headers |
+        | KL_Flags                | {$KL_LIB}/symbols/KL_Flags.kicad_sym              | Contains all flags |
+        | KL_MCU                  | {$KL_LIB}/symbols/KL_MCU.kicad_sym                | Contains all MCUs |
+        | KL_Connector            | {$KL_LIB}/symbols/KL_Connector.kicad_sym          | Conntains all connectors |
+        | KL_LED                  | {$KL_LIB}/symbols/KL_LED.kicad_sym                | Contains all LEDs |
+
     5. Confirm with **OK**
     6. The libraries are now available in the Symbol Chooser.
 
@@ -41,7 +50,7 @@ In the following steps we assume the library is located at: `~/kebag_logic_kicad
 
         | Library name | Path | Description |
         |--------------|------|-|
-        | `KL_Footprints` | `${KL_LIB}/footprints/KL_Footprints.pretty` | Contains all footprints
+        | `KL_Footprints` | `${KL_LIB}/footprints/KL_Footprints.pretty` | Contains all footprints |
     5. Confirm with **OK**
     6. The footprint library is now available in the Footprint Chooser.
 
