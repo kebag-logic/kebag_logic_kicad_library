@@ -100,7 +100,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package (in)" ""
+		(property "Package_in_inch" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -270,7 +270,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package (in)" "0603"
+		(property "Package_in_inch" "0603"
 			(at 0 0 0)
 			(effects
 				(font
@@ -388,7 +388,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package (in)" "0402"
+		(property "Package_in_inch" "0402"
 			(at 0 0 0)
 			(effects
 				(font
@@ -506,7 +506,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package (in)" "0603"
+		(property "Package_in_inch" "0603"
 			(at 0 0 0)
 			(effects
 				(font
@@ -624,7 +624,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package (in)" "0603"
+		(property "Package_in_inch" "0603"
 			(at 0 0 0)
 			(effects
 				(font
@@ -743,7 +743,7 @@
 			)
 		)
 
-		(property "Package (in)" "2512"
+		(property "Package_in_inch" "2512"
 			(at 0 0 0)
 			(effects
 				(font
@@ -862,7 +862,7 @@
 			)
 		)
 
-		(property "Package (in)" "2512"
+		(property "Package_in_inch" "2512"
 			(at 0 0 0)
 			(effects
 				(font
@@ -981,7 +981,7 @@
 			)
 		)
 
-		(property "Package (in)" "0603"
+		(property "Package_in_inch" "0603"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1100,7 +1100,7 @@
 			)
 		)
 
-		(property "Package (in)" "0603"
+		(property "Package_in_inch" "0603"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1218,7 +1218,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package (in)" "0603"
+		(property "Package_in_inch" "0603"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1338,7 +1338,7 @@
 			)
 		)
 
-		(property "Package (in)" "0603"
+		(property "Package_in_inch" "0603"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1456,7 +1456,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package (in)" "0603"
+		(property "Package_in_inch" "0603"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1575,7 +1575,7 @@
 			)
 		)
 
-		(property "Package (in)" "0603"
+		(property "Package_in_inch" "0603"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1693,7 +1693,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package (in)" "0603"
+		(property "Package_in_inch" "0603"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1812,7 +1812,7 @@
 			)
 		)
 
-		(property "Package (in)" "0603"
+		(property "Package_in_inch" "0603"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1931,7 +1931,7 @@
 			)
 		)
 
-		(property "Package (in)" "0603"
+		(property "Package_in_inch" "0603"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2050,7 +2050,7 @@
 			)
 		)
 
-		(property "Package (in)" "0603"
+		(property "Package_in_inch" "0603"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2169,7 +2169,7 @@
 			)
 		)
 
-		(property "Package (in)" "0603"
+		(property "Package_in_inch" "0603"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2287,7 +2287,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package (in)" "0603"
+		(property "Package_in_inch" "0603"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2406,7 +2406,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package (in)" "0603"
+		(property "Package_in_inch" "0603"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2525,7 +2525,7 @@
 			)
 		)
 
-		(property "Package (in)" "0603"
+		(property "Package_in_inch" "0603"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2643,7 +2643,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package (in)" "0603"
+		(property "Package_in_inch" "0603"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2762,7 +2762,7 @@
 			)
 		)
 
-		(property "Package (in)" "0603"
+		(property "Package_in_inch" "0603"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2880,7 +2880,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package (in)" "0603"
+		(property "Package_in_inch" "0603"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2999,7 +2999,7 @@
 			)
 		)
 
-		(property "Package (in)" "0603"
+		(property "Package_in_inch" "0603"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3118,7 +3118,7 @@
 			)
 		)
 
-		(property "Package (in)" "0603"
+		(property "Package_in_inch" "0603"
 			(at 0 0 0)
 			(effects
 				(font
