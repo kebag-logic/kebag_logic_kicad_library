@@ -1257,7 +1257,7 @@
 				)
 			)
 		)
-		(property "Value" "10"
+		(property "Value" "10R"
 			(at 0 0 90)
 			(effects
 				(font
@@ -1494,7 +1494,7 @@
 				)
 			)
 		)
-		(property "Value" "120"
+		(property "Value" "120R"
 			(at 0 0 90)
 			(effects
 				(font
@@ -2088,7 +2088,7 @@
 				)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "22R"
 			(at 0 0 90)
 			(effects
 				(font
@@ -2325,7 +2325,7 @@
 				)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "330R"
 			(at 0 0 90)
 			(effects
 				(font
