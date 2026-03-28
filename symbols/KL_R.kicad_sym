@@ -100,15 +100,6 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Package (in)" ""
 			(at 0 0 0)
 			(effects
@@ -279,15 +270,6 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell" "2421850"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Package (in)" "0603"
 			(at 0 0 0)
 			(effects
@@ -398,15 +380,6 @@
 			)
 		)
 		(property "LCSC" "C82700"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Farnell" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -533,15 +506,6 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Package (in)" "0603"
 			(at 0 0 0)
 			(effects
@@ -652,15 +616,6 @@
 			)
 		)
 		(property "LCSC" "C2126552"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Farnell" "3235077"
 			(at 0 0 0)
 			(effects
 				(font
@@ -787,15 +742,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+
 		(property "Package (in)" "2512"
 			(at 0 0 0)
 			(effects
@@ -914,15 +861,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+
 		(property "Package (in)" "2512"
 			(at 0 0 0)
 			(effects
@@ -1041,15 +980,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+
 		(property "Package (in)" "0603"
 			(at 0 0 0)
 			(effects
@@ -1168,15 +1099,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+
 		(property "Package (in)" "0603"
 			(at 0 0 0)
 			(effects
@@ -1304,15 +1227,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+
 		(property "ki_keywords" "R res resistor"
 			(at 0 0 0)
 			(effects
@@ -1422,15 +1337,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+
 		(property "Package (in)" "0603"
 			(at 0 0 0)
 			(effects
@@ -1541,15 +1448,6 @@
 			)
 		)
 		(property "LCSC" "C137801"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Farnell" "3495727"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1676,15 +1574,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+
 		(property "Package (in)" "0603"
 			(at 0 0 0)
 			(effects
@@ -1795,15 +1685,6 @@
 			)
 		)
 		(property "LCSC" "C136933"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Farnell" "3974308"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1930,15 +1811,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+
 		(property "Package (in)" "0603"
 			(at 0 0 0)
 			(effects
@@ -2057,15 +1930,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+
 		(property "Package (in)" "0603"
 			(at 0 0 0)
 			(effects
@@ -2184,15 +2049,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+
 		(property "Package (in)" "0603"
 			(at 0 0 0)
 			(effects
@@ -2311,15 +2168,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+
 		(property "Package (in)" "0603"
 			(at 0 0 0)
 			(effects
@@ -2430,15 +2279,6 @@
 			)
 		)
 		(property "LCSC" "C844551"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Farnell" "2138454"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2566,15 +2406,6 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell" "9238425RL"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Package (in)" "0603"
 			(at 0 0 0)
 			(effects
@@ -2693,15 +2524,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+
 		(property "Package (in)" "0603"
 			(at 0 0 0)
 			(effects
@@ -2812,15 +2635,6 @@
 			)
 		)
 		(property "LCSC" "C4084669"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Farnell" "3544017"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2947,15 +2761,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+
 		(property "Package (in)" "0603"
 			(at 0 0 0)
 			(effects
@@ -3066,15 +2872,6 @@
 			)
 		)
 		(property "LCSC" "C6263922"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Farnell" "1799467"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3201,15 +2998,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+
 		(property "Package (in)" "0603"
 			(at 0 0 0)
 			(effects
@@ -3328,15 +3117,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+
 		(property "Package (in)" "0603"
 			(at 0 0 0)
 			(effects
