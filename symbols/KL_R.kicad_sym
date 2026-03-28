@@ -1384,7 +1384,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "KL_Footprints:R_0603"
 			(at -1.778 0 90)
 			(effects
 				(font
