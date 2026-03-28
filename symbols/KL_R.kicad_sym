@@ -55,7 +55,7 @@
 				(hide yes)
 			)
 		)
-		(property "Power" ""
+		(property "Power_in_W" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -64,7 +64,7 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" ""
+		(property "Tolerance_in_pct" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -225,7 +225,7 @@
 				(hide yes)
 			)
 		)
-		(property "Power" ""
+		(property "Power_in_W" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -234,7 +234,7 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" ""
+		(property "Tolerance_in_pct" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -343,7 +343,7 @@
 				(hide yes)
 			)
 		)
-		(property "Power" "0.063"
+		(property "Power_in_W" "0.063"
 			(at 0 0 0)
 			(effects
 				(font
@@ -352,7 +352,7 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" "1"
+		(property "Tolerance_in_pct" "1"
 			(at 0 0 0)
 			(effects
 				(font
@@ -461,7 +461,7 @@
 				(hide yes)
 			)
 		)
-		(property "Power" "0.1"
+		(property "Power_in_W" "0.1"
 			(at 0 0 0)
 			(effects
 				(font
@@ -470,7 +470,7 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" "5"
+		(property "Tolerance_in_pct" "5"
 			(at 0 0 0)
 			(effects
 				(font
@@ -579,7 +579,7 @@
 				(hide yes)
 			)
 		)
-		(property "Power" "250mW"
+		(property "Power_in_W" "0.25"
 			(at 0 0 0)
 			(effects
 				(font
@@ -588,7 +588,7 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" "0.5%"
+		(property "Tolerance_in_pct" "0.5"
 			(at 0 0 0)
 			(effects
 				(font
@@ -697,7 +697,7 @@
 				(hide yes)
 			)
 		)
-		(property "Power" "2"
+		(property "Power_in_W" "2"
 			(at 0 0 0)
 			(effects
 				(font
@@ -706,7 +706,7 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" "5"
+		(property "Tolerance_in_pct" "5"
 			(at 0 0 0)
 			(effects
 				(font
@@ -816,7 +816,7 @@
 				(hide yes)
 			)
 		)
-		(property "Power" "3"
+		(property "Power_in_W" "3"
 			(at 0 0 0)
 			(effects
 				(font
@@ -825,7 +825,7 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" "5"
+		(property "Tolerance_in_pct" "5"
 			(at 0 0 0)
 			(effects
 				(font
@@ -935,7 +935,7 @@
 				(hide yes)
 			)
 		)
-		(property "Power" "125mW"
+		(property "Power_in_W" "0.125"
 			(at 0 0 0)
 			(effects
 				(font
@@ -944,7 +944,7 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" "5"
+		(property "Tolerance_in_pct" "5"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1054,7 +1054,7 @@
 				(hide yes)
 			)
 		)
-		(property "Power" "100mW"
+		(property "Power_in_W" "0.1"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1063,7 +1063,7 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" "1%"
+		(property "Tolerance_in_pct" "1"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1173,7 +1173,7 @@
 				(hide yes)
 			)
 		)
-		(property "Power" "100mW"
+		(property "Power_in_W" "0.1"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1182,7 +1182,7 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" "5%"
+		(property "Tolerance_in_pct" "5"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1292,7 +1292,7 @@
 				(hide yes)
 			)
 		)
-		(property "Power" "100mW"
+		(property "Power_in_W" "0.1"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1301,7 +1301,7 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" "0.1%"
+		(property "Tolerance_in_pct" "0.1"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1411,7 +1411,7 @@
 				(hide yes)
 			)
 		)
-		(property "Power" "100mW"
+		(property "Power_in_W" "0.1"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1420,7 +1420,7 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" "1%"
+		(property "Tolerance_in_pct" "1"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1529,7 +1529,7 @@
 				(hide yes)
 			)
 		)
-		(property "Power" "0.1"
+		(property "Power_in_W" "0.1"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1538,7 +1538,7 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" "5"
+		(property "Tolerance_in_pct" "5"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1648,7 +1648,7 @@
 				(hide yes)
 			)
 		)
-		(property "Power" "100mW"
+		(property "Power_in_W" "0.1"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1657,7 +1657,7 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" "1%"
+		(property "Tolerance_in_pct" "1"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1766,7 +1766,7 @@
 				(hide yes)
 			)
 		)
-		(property "Power" "0.1"
+		(property "Power_in_W" "0.1"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1775,7 +1775,7 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" "5"
+		(property "Tolerance_in_pct" "5"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1885,7 +1885,7 @@
 				(hide yes)
 			)
 		)
-		(property "Power" "100mW"
+		(property "Power_in_W" "0.1"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1894,7 +1894,7 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" "5"
+		(property "Tolerance_in_pct" "5"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2004,7 +2004,7 @@
 				(hide yes)
 			)
 		)
-		(property "Power" "0.1"
+		(property "Power_in_W" "0.1"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2013,7 +2013,7 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" "1"
+		(property "Tolerance_in_pct" "1"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2123,7 +2123,7 @@
 				(hide yes)
 			)
 		)
-		(property "Power" "0.1"
+		(property "Power_in_W" "0.1"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2132,7 +2132,7 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" "1"
+		(property "Tolerance_in_pct" "1"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2242,7 +2242,7 @@
 				(hide yes)
 			)
 		)
-		(property "Power" "125mW"
+		(property "Power_in_W" "0.125"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2251,7 +2251,7 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" "1%"
+		(property "Tolerance_in_pct" "1"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2360,7 +2360,7 @@
 				(hide yes)
 			)
 		)
-		(property "Power" "100mW"
+		(property "Power_in_W" "0.1"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2369,7 +2369,7 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" "1%"
+		(property "Tolerance_in_pct" "1"
 			(at 0 0 0)
 			(show_name)
 			(effects
@@ -2479,7 +2479,7 @@
 				(hide yes)
 			)
 		)
-		(property "Power" "100"
+		(property "Power_in_W" "100"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2488,7 +2488,7 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" "1"
+		(property "Tolerance_in_pct" "1"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2598,7 +2598,7 @@
 				(hide yes)
 			)
 		)
-		(property "Power" "125mW"
+		(property "Power_in_W" "0.125"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2607,7 +2607,7 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" "1%"
+		(property "Tolerance_in_pct" "1"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2716,7 +2716,7 @@
 				(hide yes)
 			)
 		)
-		(property "Power" "0.1"
+		(property "Power_in_W" "0.1"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2725,7 +2725,7 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" "1"
+		(property "Tolerance_in_pct" "1"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2835,7 +2835,7 @@
 				(hide yes)
 			)
 		)
-		(property "Power" "100mW"
+		(property "Power_in_W" "0.1"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2844,7 +2844,7 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" "5%"
+		(property "Tolerance_in_pct" "5"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2953,7 +2953,7 @@
 				(hide yes)
 			)
 		)
-		(property "Power" "100mW"
+		(property "Power_in_W" "0.1"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2962,7 +2962,7 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" "1%"
+		(property "Tolerance_in_pct" "1"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3072,7 +3072,7 @@
 				(hide yes)
 			)
 		)
-		(property "Power" "100"
+		(property "Power_in_W" "100"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3081,7 +3081,7 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" "1"
+		(property "Tolerance_in_pct" "1"
 			(at 0 0 0)
 			(effects
 				(font
