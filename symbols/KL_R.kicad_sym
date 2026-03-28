@@ -180,7 +180,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "R_10K_100mW_1pct_0603"
+	(symbol "R_10K_0.1W_1pct_0603"
 		(extends "R_{Value}_{Power_in_W}_{Tolerance_in_pct}_{Package_in_inch}")
 		(property "Reference" "R"
 			(at 2.032 0 90)
@@ -298,7 +298,7 @@
 			)
 		)
 	)
-	(symbol "R_8K25_63mW_1pct_0402"
+	(symbol "R_8K25_0.063W_1pct_0402"
 		(extends "R_{Value}_{Power_in_W}_{Tolerance_in_pct}_{Package_in_inch}")
 		(property "Reference" "R"
 			(at 2.032 0 90)
@@ -416,7 +416,7 @@
 			)
 		)
 	)
-	(symbol "R_0R_100mW_5pct_0603"
+	(symbol "R_0R_0.1W_5pct_0603"
 		(extends "R_{Value}_{Power_in_W}_{Tolerance_in_pct}_{Package_in_inch}")
 		(property "Reference" "R"
 			(at 2.032 0 90)
@@ -534,7 +534,7 @@
 			)
 		)
 	)
-	(symbol "R_0R_250mW_0-5pct_0603"
+	(symbol "R_0R_0.25W_0-5pct_0603"
 		(extends "R_{Value}_{Power_in_W}_{Tolerance_in_pct}_{Package_in_inch}")
 		(property "Reference" "R"
 			(at 2.032 0 90)
@@ -890,7 +890,7 @@
 			)
 		)
 	)
-	(symbol "R_100K_125mW_5pct_0603"
+	(symbol "R_100K_0.125W_5pct_0603"
 		(extends "R_{Value}_{Power_in_W}_{Tolerance_in_pct}_{Package_in_inch}")
 		(property "Reference" "R"
 			(at 2.032 0 90)
@@ -1009,7 +1009,7 @@
 			)
 		)
 	)
-	(symbol "R_10K2_100mW_1pct_0603"
+	(symbol "R_10K2_0.1W_1pct_0603"
 		(extends "R_{Value}_{Power_in_W}_{Tolerance_in_pct}_{Package_in_inch}")
 		(property "Reference" "R"
 			(at 2.032 0 90)
@@ -1128,7 +1128,7 @@
 			)
 		)
 	)
-	(symbol "R_10K_100mW_5pct_0603"
+	(symbol "R_10K_0.1W_5pct_0603"
 		(extends "R_{Value}_{Power_in_W}_{Tolerance_in_pct}_{Package_in_inch}")
 		(property "Reference" "R"
 			(at 2.032 0 90)
@@ -1247,7 +1247,7 @@
 			)
 		)
 	)
-	(symbol "R_10R_100mW_0-1pct_0603"
+	(symbol "R_10R_0.1W_0-1pct_0603"
 		(extends "R_{Value}_{Power_in_W}_{Tolerance_in_pct}_{Package_in_inch}")
 		(property "Reference" "R"
 			(at 2.032 0 90)
@@ -1366,7 +1366,7 @@
 			)
 		)
 	)
-	(symbol "R_11K_100mW_1pct_0603"
+	(symbol "R_11K_0.1W_1pct_0603"
 		(extends "R_{Value}_{Power_in_W}_{Tolerance_in_pct}_{Package_in_inch}")
 		(property "Reference" "R"
 			(at 2.032 0 90)
@@ -1484,7 +1484,7 @@
 			)
 		)
 	)
-	(symbol "R_120R_100mW_5pct_0603"
+	(symbol "R_120R_0.1W_5pct_0603"
 		(extends "R_{Value}_{Power_in_W}_{Tolerance_in_pct}_{Package_in_inch}")
 		(property "Reference" "R"
 			(at 2.032 0 90)
@@ -1603,7 +1603,7 @@
 			)
 		)
 	)
-	(symbol "R_12K_100mW_1pct_0603"
+	(symbol "R_12K_0.1W_1pct_0603"
 		(extends "R_{Value}_{Power_in_W}_{Tolerance_in_pct}_{Package_in_inch}")
 		(property "Reference" "R"
 			(at 2.032 0 90)
@@ -1721,7 +1721,7 @@
 			)
 		)
 	)
-	(symbol "R_1K5_100mW_5pct_0603"
+	(symbol "R_1K5_0.1W_5pct_0603"
 		(extends "R_{Value}_{Power_in_W}_{Tolerance_in_pct}_{Package_in_inch}")
 		(property "Reference" "R"
 			(at 2.032 0 90)
@@ -1840,7 +1840,7 @@
 			)
 		)
 	)
-	(symbol "R_1K_100mW_5pct_0603"
+	(symbol "R_1K_0.1W_5pct_0603"
 		(extends "R_{Value}_{Power_in_W}_{Tolerance_in_pct}_{Package_in_inch}")
 		(property "Reference" "R"
 			(at 2.032 0 90)
@@ -1959,7 +1959,7 @@
 			)
 		)
 	)
-	(symbol "R_20K_100mW_1pct_0603"
+	(symbol "R_20K_0.1W_1pct_0603"
 		(extends "R_{Value}_{Power_in_W}_{Tolerance_in_pct}_{Package_in_inch}")
 		(property "Reference" "R"
 			(at 2.032 0 90)
@@ -2078,7 +2078,7 @@
 			)
 		)
 	)
-	(symbol "R_22R_100mW_1pct_0603"
+	(symbol "R_22R_0.1W_1pct_0603"
 		(extends "R_{Value}_{Power_in_W}_{Tolerance_in_pct}_{Package_in_inch}")
 		(property "Reference" "R"
 			(at 2.032 0 90)
@@ -2197,7 +2197,7 @@
 			)
 		)
 	)
-	(symbol "R_31K6_125mW_1pct_0603"
+	(symbol "R_31K6_0.125W_1pct_0603"
 		(extends "R_{Value}_{Power_in_W}_{Tolerance_in_pct}_{Package_in_inch}")
 		(property "Reference" "R"
 			(at 2.032 0 90)
@@ -2315,7 +2315,7 @@
 			)
 		)
 	)
-	(symbol "R_330R_100mW_1pct_0603"
+	(symbol "R_330R_0.1W_1pct_0603"
 		(extends "R_{Value}_{Power_in_W}_{Tolerance_in_pct}_{Package_in_inch}")
 		(property "Reference" "R"
 			(at 2.032 0 90)
@@ -2434,7 +2434,7 @@
 			)
 		)
 	)
-	(symbol "R_45K3_100mW_1pct_0603"
+	(symbol "R_45K3_0.1W_1pct_0603"
 		(extends "R_{Value}_{Power_in_W}_{Tolerance_in_pct}_{Package_in_inch}")
 		(property "Reference" "R"
 			(at 2.032 0 90)
@@ -2553,7 +2553,7 @@
 			)
 		)
 	)
-	(symbol "R_45K9_125mW_1pct_0603"
+	(symbol "R_45K9_0.125W_1pct_0603"
 		(extends "R_{Value}_{Power_in_W}_{Tolerance_in_pct}_{Package_in_inch}")
 		(property "Reference" "R"
 			(at 2.032 0 90)
@@ -2671,7 +2671,7 @@
 			)
 		)
 	)
-	(symbol "R_47K_100mW_1pct_0603"
+	(symbol "R_47K_0.1W_1pct_0603"
 		(extends "R_{Value}_{Power_in_W}_{Tolerance_in_pct}_{Package_in_inch}")
 		(property "Reference" "R"
 			(at 2.032 0 90)
@@ -2790,7 +2790,7 @@
 			)
 		)
 	)
-	(symbol "R_4K7_100mW_5pct_0603"
+	(symbol "R_4K7_0.1W_5pct_0603"
 		(extends "R_{Value}_{Power_in_W}_{Tolerance_in_pct}_{Package_in_inch}")
 		(property "Reference" "R"
 			(at 2.032 0 90)
@@ -2908,7 +2908,7 @@
 			)
 		)
 	)
-	(symbol "R_6K04_100mW_1pct_0603"
+	(symbol "R_6K04_0.1W_1pct_0603"
 		(extends "R_{Value}_{Power_in_W}_{Tolerance_in_pct}_{Package_in_inch}")
 		(property "Reference" "R"
 			(at 2.032 0 90)
@@ -3027,7 +3027,7 @@
 			)
 		)
 	)
-	(symbol "R_9K1_100mW_1pct_0603"
+	(symbol "R_9K1_0.1W_1pct_0603"
 		(extends "R_{Value}_{Power_in_W}_{Tolerance_in_pct}_{Package_in_inch}")
 		(property "Reference" "R"
 			(at 2.032 0 90)
