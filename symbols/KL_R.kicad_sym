@@ -225,7 +225,7 @@
 				(hide yes)
 			)
 		)
-		(property "Power_in_W" ""
+		(property "Power_in_W" "0.1"
 			(at 0 0 0)
 			(effects
 				(font
@@ -234,7 +234,7 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance_in_pct" ""
+		(property "Tolerance_in_pct" "1"
 			(at 0 0 0)
 			(effects
 				(font
@@ -534,7 +534,7 @@
 			)
 		)
 	)
-	(symbol "R_0R_0.25W_0-5pct_0603"
+	(symbol "R_0R_0.25W_0.5pct_0603"
 		(extends "R_{Value}_{Power_in_W}_{Tolerance_in_pct}_{Package_in_inch}")
 		(property "Reference" "R"
 			(at 2.032 0 90)
@@ -1247,7 +1247,7 @@
 			)
 		)
 	)
-	(symbol "R_10R_0.1W_0-1pct_0603"
+	(symbol "R_10R_0.1W_0.1pct_0603"
 		(extends "R_{Value}_{Power_in_W}_{Tolerance_in_pct}_{Package_in_inch}")
 		(property "Reference" "R"
 			(at 2.032 0 90)
@@ -2479,7 +2479,7 @@
 				(hide yes)
 			)
 		)
-		(property "Power_in_W" "100"
+		(property "Power_in_W" "0.1"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3072,7 +3072,7 @@
 				(hide yes)
 			)
 		)
-		(property "Power_in_W" "100"
+		(property "Power_in_W" "0.1"
 			(at 0 0 0)
 			(effects
 				(font
