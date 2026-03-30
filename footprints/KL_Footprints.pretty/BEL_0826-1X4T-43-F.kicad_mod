@@ -1081,4 +1081,15 @@
 		)
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/kebag_logic_kicad_library/3dmodels/Connector_Bel.3dshapes/0826-1X4T-43-F--3DModel-STEP-56544.STEP"
+		(offset
+			(xyz 0 0 6)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -180)
+		)
+	)
 )
