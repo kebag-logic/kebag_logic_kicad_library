@@ -204,7 +204,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "C_100n_10V_X7R_0603_10"
+	(symbol "C_100n_10V_10pct_X7R_0603"
 		(extends "C_{Value}_{Voltage_in_V}_{Tolerance_in_pct}_{Dielectric}_{Package_in_inch}")
 		(property "Reference" "C"
 			(at 0.635 2.54 0)
@@ -314,73 +314,9 @@
 				(hide yes)
 			)
 		)
-		(symbol "C_100n_10V_X7R_0603_10_0_1"
-			(polyline
-				(pts
-					(xy -2.032 0.762) (xy 2.032 0.762)
-				)
-				(stroke
-					(width 0.508)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -2.032 -0.762) (xy 2.032 -0.762)
-				)
-				(stroke
-					(width 0.508)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "C_100n_10V_X7R_0603_10_1_1"
-			(pin passive line
-				(at 0 3.81 270)
-				(length 2.794)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -3.81 90)
-				(length 2.794)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(embedded_fonts no)
+
 	)
-	(symbol "C_2u2_10V_Y5V_0603_20"
+	(symbol "C_2u2_10V_20pct_Y5V_0603"
 		(extends "C_{Value}_{Voltage_in_V}_{Tolerance_in_pct}_{Dielectric}_{Package_in_inch}")
 		(property "Reference" "C"
 			(at 0.635 2.54 0)
@@ -490,73 +426,9 @@
 				(hide yes)
 			)
 		)
-		(symbol "C_2u2_10V_Y5V_0603_20_0_1"
-			(polyline
-				(pts
-					(xy -2.032 0.762) (xy 2.032 0.762)
-				)
-				(stroke
-					(width 0.508)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -2.032 -0.762) (xy 2.032 -0.762)
-				)
-				(stroke
-					(width 0.508)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "C_2u2_10V_Y5V_0603_20_1_1"
-			(pin passive line
-				(at 0 3.81 270)
-				(length 2.794)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -3.81 90)
-				(length 2.794)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(embedded_fonts no)
+
 	)
-	(symbol "C_4u7_10V_X5R_0603_10"
+	(symbol "C_4u7_10V_10pct_X5R_0603"
 		(extends "C_{Value}_{Voltage_in_V}_{Tolerance_in_pct}_{Dielectric}_{Package_in_inch}")
 		(property "Reference" "C"
 			(at 0.635 2.54 0)
@@ -666,73 +538,9 @@
 				(hide yes)
 			)
 		)
-		(symbol "C_4u7_10V_X5R_0603_10_0_1"
-			(polyline
-				(pts
-					(xy -2.032 0.762) (xy 2.032 0.762)
-				)
-				(stroke
-					(width 0.508)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -2.032 -0.762) (xy 2.032 -0.762)
-				)
-				(stroke
-					(width 0.508)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "C_4u7_10V_X5R_0603_10_1_1"
-			(pin passive line
-				(at 0 3.81 270)
-				(length 2.794)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -3.81 90)
-				(length 2.794)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(embedded_fonts no)
+
 	)
-	(symbol "C_100n_16V_X7R_0603_10"
+	(symbol "C_100n_16V_10pct_X7R_0603"
 		(extends "C_{Value}_{Voltage_in_V}_{Tolerance_in_pct}_{Dielectric}_{Package_in_inch}")
 		(property "Reference" "C"
 			(at 0.635 2.54 0)
@@ -843,7 +651,7 @@
 			)
 		)
 	)
-	(symbol "C_100n_25V_X7R_0603_10"
+	(symbol "C_100n_25V_10pct_X7R_0603"
 		(extends "C_{Value}_{Voltage_in_V}_{Tolerance_in_pct}_{Dielectric}_{Package_in_inch}")
 		(property "Reference" "C"
 			(at 0.635 2.54 0)
@@ -954,7 +762,7 @@
 			)
 		)
 	)
-	(symbol "C_100n_35V_X7R_402_10"
+	(symbol "C_100n_35V_10pct_X7R_0402"
 		(extends "C_{Value}_{Voltage_in_V}_{Tolerance_in_pct}_{Dielectric}_{Package_in_inch}")
 		(property "Reference" "C"
 			(at 0.635 2.54 0)
@@ -1074,7 +882,7 @@
 			)
 		)
 	)
-	(symbol "C_100n_50V_X7R_0603_10"
+	(symbol "C_100n_50V_10pct_X7R_0603"
 		(extends "C_{Value}_{Voltage_in_V}_{Tolerance_in_pct}_{Dielectric}_{Package_in_inch}")
 		(property "Reference" "C"
 			(at 0.635 2.54 0)
@@ -1185,7 +993,7 @@
 			)
 		)
 	)
-	(symbol "C_10n_50V_X7R_0603_10"
+	(symbol "C_10n_50V_10pct_X7R_0603"
 		(extends "C_{Value}_{Voltage_in_V}_{Tolerance_in_pct}_{Dielectric}_{Package_in_inch}")
 		(property "Reference" "C"
 			(at 0.635 2.54 0)
@@ -1296,7 +1104,7 @@
 			)
 		)
 	)
-	(symbol "C_10p_25V_C0G_0603_5"
+	(symbol "C_10p_25V_5pct_C0G_0603"
 		(extends "C_{Value}_{Voltage_in_V}_{Tolerance_in_pct}_{Dielectric}_{Package_in_inch}")
 		(property "Reference" "C"
 			(at 0.635 2.54 0)
@@ -1407,7 +1215,7 @@
 			)
 		)
 	)
-	(symbol "C_10u_25V_X5R_0603_20"
+	(symbol "C_10u_25V_20pct_X5R_0603"
 		(extends "C_{Value}_{Voltage_in_V}_{Tolerance_in_pct}_{Dielectric}_{Package_in_inch}")
 		(property "Reference" "C"
 			(at 0.635 2.54 0)
@@ -1518,7 +1326,7 @@
 			)
 		)
 	)
-	(symbol "C_22u_10V_X5R_0603_20"
+	(symbol "C_22u_10V_20pct_X5R_0603"
 		(extends "C_{Value}_{Voltage_in_V}_{Tolerance_in_pct}_{Dielectric}_{Package_in_inch}")
 		(property "Reference" "C"
 			(at 0.635 2.54 0)
@@ -1629,7 +1437,7 @@
 			)
 		)
 	)
-	(symbol "C_10u_10V_X5R_0603_20"
+	(symbol "C_10u_10V_20pct_X5R_0603"
 		(extends "C_{Value}_{Voltage_in_V}_{Tolerance_in_pct}_{Dielectric}_{Package_in_inch}")
 		(property "Reference" "C"
 			(at 0.635 2.54 0)
