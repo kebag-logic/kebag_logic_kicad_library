@@ -18,12 +18,11 @@ R_10K_0.1W_1pct_0603
 ## Resistor footprint and package rules
 
 - Each resistor must be derived from the `R_{Value}_{Power_in_W}_{Tolerance_in_pct}_{Package_in_inch}` template.
-- Each symbol must have an appropriate footprint assigned.
 - The footprint must match the package size defined in the `Package_in_inch` field.
-- Preferred SMD size: 0603. Exceptions allowed if the required value is not available in 0603.
-- Resistor values are without the SI Unit. Values <= 1K are entered with an R as postfix. E.g. `0R`.
+- Preferred SMD size (in inch): 0603. Exceptions allowed if the required value is not available in 0603.
+- Resistor values are written without the SI Unit. Values <= 1K are entered with an R as postfix. E.g. `0R`.
 - The kilo, mega, ... postfixes are written in capital letters.
-- Links to datasheets must link directly to the manufacturer. No supplier datasheets are to be avoided where possible.
+- Links to datasheets must link directly to the manufacturer. Supplier datasheets are to be avoided where possible.
 - Only the Reference field and the Value field are visible by default.
 - The reference designator prefix must remain `R` and must not be fixed in the symbol.
 
@@ -57,4 +56,4 @@ R_10K_0.1W_1pct_0603
 
 ## Validation
 
-Run the validation script in the helper folder
+Run the validation script `run_check_symbol.py` in the helper folder.
