@@ -84,7 +84,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package_in_inch" "0603"
+		(property "Package_in_inch" ""
 			(at 0 0 0)
 			(effects
 				(font
