@@ -611,7 +611,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "KL_Footprints:C_0603"
+		(property "Footprint" "KL_Footprints:C_0402"
 			(at 0.9652 -3.81 0)
 			(effects
 				(font
@@ -665,7 +665,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package_in_inch" "0603"
+		(property "Package_in_inch" "0402"
 			(at 0 0 0)
 			(effects
 				(font
