@@ -29,6 +29,7 @@ class SymbolValidator:
 
             # --- 1. Compare name-derived parameters ---
             for param, cast_type in self.expected_params.items():
+                # print(f"param: {param}")
                 v1 = val1[param]
                 v2 = val2.get(param)
 
@@ -49,6 +50,7 @@ class SymbolValidator:
 
             # --- 2. Additional property validation ---
             for field, rule in self.validation_rules.items():
+                # print(f"field: {field}, rule: {rule}")
                 value = val2.get(field, "")
 
                 verdict = PASS
@@ -65,7 +67,10 @@ class SymbolValidator:
                         verdict = FAIL
 
                 elif rule["type"] == "contains_package":
-                    expected = val1["Package_in_inch"]
+                    try:
+                        expected = val1["Package_in_inch"]
+                    except KeyError:
+                        expected = val1["Package_LxW_in_mm"]
                     if expected not in str(value):
                         verdict = FAIL
 

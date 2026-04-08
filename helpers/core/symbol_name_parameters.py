@@ -1,8 +1,12 @@
 import copy
 
-def make_validation_rules(reference):
+def make_validation_rules(reference, remove=None):
     rules = copy.deepcopy(VALIDATION_RULES_GENERAL)
     rules["Reference"]["value"] = reference
+    if remove:
+        for parameter in remove:
+            del rules[parameter]
+
     return rules
 
 PASS = 0
@@ -36,6 +40,14 @@ symbol_name_parameters = {
             "Dielectric": "str",
             "Package_in_inch": "str",
             "VALIDATION_RULES" : make_validation_rules("C")
+        },
+        "L":
+        {
+            "Value": "str",
+            "I_max_in_A": "float",
+            "Tolerance_in_pct": "float",
+            "Package_LxW_in_mm": "str",
+            "VALIDATION_RULES" : make_validation_rules("L", remove=["Footprint"])
         }
     }
 }
