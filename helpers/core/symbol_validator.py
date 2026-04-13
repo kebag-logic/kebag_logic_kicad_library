@@ -63,7 +63,7 @@ class SymbolValidator:
 
                 elif rule["type"] == "not_empty":
                     expected = "non-empty"
-                    if not value:
+                    if not value or str(value).strip() in ["", "~"]:
                         verdict = FAIL
 
                 elif rule["type"] == "contains_package":

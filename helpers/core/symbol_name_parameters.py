@@ -16,6 +16,7 @@ VALIDATION_RULES_GENERAL = {
     "Reference": {"type": "equals", "value": "R"},
     "Footprint": {"type": "contains_package"},
     "Datasheet": {"type": "not_empty"},
+    "MPN": {"type": "not_empty"},
     "Mouser": {"type": "not_empty"},
     "Digikey": {"type": "not_empty"},
     "LCSC": {"type": "not_empty"},
@@ -48,6 +49,14 @@ symbol_name_parameters = {
             "Tolerance_in_pct": "float",
             "Package_LxW_in_mm": "str",
             "VALIDATION_RULES" : make_validation_rules("L", remove=["Footprint"])
+        },
+        "Crystal":
+        {
+            "Value": "str",
+            "Frequency_Tolerance_in_ppm": "float",
+            "Load_Capacitance_in_pF": "float",
+            "Package_LxW_in_mm": "str",
+            "VALIDATION_RULES" : make_validation_rules("X", remove=["Footprint"])
         }
     }
 }

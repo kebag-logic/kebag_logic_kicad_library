@@ -54,7 +54,9 @@ class KiCadSymbolParser(KiCadBase):
         raise KeyError("Could not find reference symbol")
 
     def extract_symbol_type(self):
-        return self.reference_entry[0][0]
+        symbol_name = self.reference_entry[0]
+        symbol_type = symbol_name.split("_")[0]
+        return symbol_type
 
     def extract_properties(self, symbol_expr):
         props = {}
