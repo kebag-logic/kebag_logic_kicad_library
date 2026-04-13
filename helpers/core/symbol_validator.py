@@ -8,6 +8,7 @@ class SymbolValidator:
         self.symbol_type = symbol_type
 
         type_config = symbol_name_parameters['symbol_type'][symbol_type]
+        self.use_name_parsing = type_config.get("USE_NAME_PARSING", True)
 
         self.expected_params = {
             k: v for k, v in type_config.items() if k != "VALIDATION_RULES"
@@ -22,31 +23,45 @@ class SymbolValidator:
             if reference_entry[0] in name:
                 continue
 
-            val1 = self.parse_symbol_name(name)
+            # val1 = self.parse_symbol_name(name)
+            val1 = {}
+
+            if self.use_name_parsing:
+                try:
+                    val1 = self.parse_symbol_name(name)
+                except ValueError as e:
+                    results.setdefault(name, {})
+                    results[name]["name_format"] = {
+                        "verdict": FAIL,
+                        "expected": f"{self.symbol_type}_...",
+                        "actual": name
+                    }
+                    continue
             val2 = prop_dict
 
             results.setdefault(name, {})
 
             # --- 1. Compare name-derived parameters ---
-            for param, cast_type in self.expected_params.items():
-                # print(f"param: {param}")
-                v1 = val1[param]
-                v2 = val2.get(param)
+            if self.use_name_parsing:
+                for param, cast_type in self.expected_params.items():
+                    # print(f"param: {param}")
+                    v1 = val1[param]
+                    v2 = val2.get(param)
 
-                if cast_type == "float":
-                    v1 = float(v1)
-                    v2 = float(v2)
-                elif cast_type == "str":
-                    v1 = str(v1)
-                    v2 = str(v2)
+                    if cast_type == "float":
+                        v1 = float(v1)
+                        v2 = float(v2)
+                    elif cast_type == "str":
+                        v1 = str(v1)
+                        v2 = str(v2)
 
-                verdict = PASS if v1 == v2 else FAIL
+                    verdict = PASS if v1 == v2 else FAIL
 
-                results[name][param] = {
-                    "verdict": verdict,
-                    "expected": v1,
-                    "actual": v2
-                }
+                    results[name][param] = {
+                        "verdict": verdict,
+                        "expected": v1,
+                        "actual": v2
+                    }
 
             # --- 2. Additional property validation ---
             for field, rule in self.validation_rules.items():

@@ -57,6 +57,16 @@ symbol_name_parameters = {
             "Load_Capacitance_in_pF": "float",
             "Package_LxW_in_mm": "str",
             "VALIDATION_RULES" : make_validation_rules("X", remove=["Footprint"])
+        },
+        "VoltageRegulator":
+        {
+            "USE_NAME_PARSING": False,
+            "Value": "str",
+            "VIN_MIN_V": "float",
+            "VIN_MAX_V": "float",
+            "I_OUT_A": "float",
+            "I_VIN_A": "float",
+            "VALIDATION_RULES" : make_validation_rules("U", remove=["Footprint"])
         }
     }
 }
