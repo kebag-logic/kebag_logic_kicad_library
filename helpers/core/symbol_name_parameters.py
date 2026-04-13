@@ -67,6 +67,14 @@ symbol_name_parameters = {
             "I_OUT_A": "float",
             "I_VIN_A": "float",
             "VALIDATION_RULES" : make_validation_rules("U", remove=["Footprint"])
+        },
+        "MCU":
+        {
+            "USE_NAME_PARSING": False,
+            "Value": "str",
+            "V_DD_MAX_V": "float",
+            "I_DD_MAX_A": "float",
+            "VALIDATION_RULES" : make_validation_rules("U", remove=["Footprint"])
         }
     }
 }
