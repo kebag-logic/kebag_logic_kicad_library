@@ -75,6 +75,12 @@ symbol_name_parameters = {
             "V_DD_MAX_V": "float",
             "I_DD_MAX_A": "float",
             "VALIDATION_RULES" : make_validation_rules("U", remove=["Footprint"])
+        },
+        "NetworkSwitch":
+        {
+            "USE_NAME_PARSING": False,
+            "Value": "str",
+            "VALIDATION_RULES" : make_validation_rules("U", remove=["Footprint"])
         }
     }
 }
