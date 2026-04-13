@@ -18,11 +18,11 @@ C_100n_10V_10pct_X7R_0603
 
 ## Capacitor footprint and package rules
 
-- Each capacitor symbol uses the default R symbol provided in the `KL_C` library
+- Each capacitor symbol is derived from the `C_{Value}_{Voltage_in_V}_{Tolerance_in_pct}_{Dielectric}_{Package_in_inch}`symbol.
 - Each symbol must have a footprint assigned.
 - The footprint must match the package size defined in the `Package_in_inch` field.
 - Preferred SMD size: 0603. Exceptions allowed if the required value is not available in 0603.
-- Capacitor values are without the SI Unit. All values have a postfix describing the nano, micro, ... range
+- Capacitor values are written without the SI Unit. All values have a postfix describing the nano, micro, ... range
 - The nano, micro, ... postfixes are written in lowercase letters.
 - Links to datasheets only from the manufacturer. No supplier datasheets.
 - Only the Reference field and the Value field are visible by default.
