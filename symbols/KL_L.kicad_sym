@@ -144,16 +144,6 @@
 				)
 			)
 		)
-		(property "Symbol Name" "L_{Value}_{Current_Rating_in_A}_{Tolerance_in_pct}_{Package_LxW_in_mm}"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(symbol "L_{Value}_{Current_Rating_in_A}_{Tolerance_in_pct}_{Package_LxW_in_mm}_0_1"
 			(arc
 				(start 1.27 0)
@@ -376,16 +366,6 @@
 				)
 			)
 		)
-		(property "Symbol Name" "L_1u5_19A_20pct_7.9x7.3"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(embedded_fonts no)
 	)
 	(symbol "L_3u3_8A_20pct_7.2x6.9"
@@ -514,16 +494,6 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Symbol Name" "L_3u3_8A_20pct_7x7"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
