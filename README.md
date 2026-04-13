@@ -63,6 +63,7 @@ Please follow these guidelines to add a component to the library:
 - [Resistor Guidelines](RESISTOR.md)
 - [Capacitor Guidelines](CAPACITOR.md)
 - [Inductor Guidelines](INDUCTOR.md)
+- [Crystal Guidelines](CRYSTAL.md)
 - [Footprint Guidelines](FOOTPRINTS.md)
 
 ## Kebag Logic Signal Naming Scheme
