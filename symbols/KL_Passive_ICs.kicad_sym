@@ -2,27 +2,32 @@
 	(version 20241209)
 	(generator "kicad_symbol_editor")
 	(generator_version "9.0")
-	(symbol "Crystal_25MHz_32pF"
+	(symbol "Crystal_25MHz_32p"
+		(pin_names
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "U"
-			(at 0 0 0)
+		(property "Reference" "X"
+			(at 3.81 2.794 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" ""
-			(at 0 0 0)
+		(property "Value" "25000000"
+			(at -33.528 17.526 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "KL_Footprints:VXM7"
 			(at 0 0 0)
 			(effects
 				(font
@@ -31,7 +36,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/VXM7-Website-April-2020.pdf"
 			(at 0 0 0)
 			(effects
 				(font
@@ -50,36 +55,39 @@
 			)
 		)
 		(property "Digikey" "150-VXM7-9032-25M0000000CT-ND"
-			(at 0 0 0)
+			(at -33.02 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
 		(property "Mouser" "579-M7903225M0000000"
-			(at 0 0 0)
+			(at -32.766 23.368 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
 		(property "LCSC" "C1517995"
-			(at 0 0 0)
+			(at -33.274 19.812 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(symbol "Crystal_25MHz_32pF_0_1"
+		(symbol "Crystal_25MHz_32p_0_1"
 			(polyline
 				(pts
-					(xy -1.27 -6.604) (xy -1.27 -5.334) (xy 3.81 -5.334) (xy 3.81 -6.604)
+					(xy -2.54 2.286) (xy -2.54 3.556) (xy 2.54 3.556) (xy 2.54 2.286)
 				)
 				(stroke
 					(width 0)
@@ -91,7 +99,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 -8.89) (xy -0.762 -8.89)
+					(xy -2.54 0) (xy -2.032 0)
 				)
 				(stroke
 					(width 0)
@@ -103,7 +111,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 -11.176) (xy -1.27 -12.446) (xy 3.81 -12.446) (xy 3.81 -11.176)
+					(xy -2.54 -2.286) (xy -2.54 -3.556) (xy 2.54 -3.556) (xy 2.54 -2.286)
 				)
 				(stroke
 					(width 0)
@@ -115,7 +123,7 @@
 			)
 			(polyline
 				(pts
-					(xy -0.762 -10.16) (xy -0.762 -7.62)
+					(xy -2.032 -1.27) (xy -2.032 1.27)
 				)
 				(stroke
 					(width 0.508)
@@ -126,8 +134,8 @@
 				)
 			)
 			(rectangle
-				(start 0.127 -6.35)
-				(end 2.413 -11.43)
+				(start -1.143 2.54)
+				(end 1.143 -2.54)
 				(stroke
 					(width 0.3048)
 					(type default)
@@ -138,7 +146,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.27 -5.334) (xy 1.27 -5.08)
+					(xy 0 3.556) (xy 0 3.81)
 				)
 				(stroke
 					(width 0)
@@ -150,7 +158,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.27 -12.7) (xy 1.27 -12.446)
+					(xy 0 -3.81) (xy 0 -3.556)
 				)
 				(stroke
 					(width 0)
@@ -162,7 +170,7 @@
 			)
 			(polyline
 				(pts
-					(xy 3.302 -8.89) (xy 3.81 -8.89)
+					(xy 2.032 0) (xy 2.54 0)
 				)
 				(stroke
 					(width 0)
@@ -174,7 +182,7 @@
 			)
 			(polyline
 				(pts
-					(xy 3.302 -10.16) (xy 3.302 -7.62)
+					(xy 2.032 -1.27) (xy 2.032 1.27)
 				)
 				(stroke
 					(width 0.508)
@@ -185,9 +193,9 @@
 				)
 			)
 		)
-		(symbol "Crystal_25MHz_32pF_1_1"
+		(symbol "Crystal_25MHz_32p_1_1"
 			(pin passive line
-				(at -2.54 -8.89 0)
+				(at -3.81 0 0)
 				(length 1.27)
 				(name "1"
 					(effects
@@ -205,7 +213,7 @@
 				)
 			)
 			(pin passive line
-				(at 1.27 -3.81 270)
+				(at 0 5.08 270)
 				(length 1.27)
 				(name "2"
 					(effects
@@ -223,7 +231,7 @@
 				)
 			)
 			(pin passive line
-				(at 1.27 -13.97 90)
+				(at 0 -5.08 90)
 				(length 1.27)
 				(name "4"
 					(effects
@@ -241,7 +249,7 @@
 				)
 			)
 			(pin passive line
-				(at 5.08 -8.89 180)
+				(at 3.81 0 180)
 				(length 1.27)
 				(name "3"
 					(effects

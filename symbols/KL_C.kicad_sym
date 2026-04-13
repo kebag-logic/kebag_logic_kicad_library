@@ -30,7 +30,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "KL_Footprints:C_0603"
 			(at 0.9652 -3.81 0)
 			(effects
 				(font
@@ -186,7 +186,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "C_100nF_10V_X7R_0603_10"
+	(symbol "C_100n_10V_X7R_0603_10"
 		(pin_numbers
 			(hide yes)
 		)
@@ -205,7 +205,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n"
 			(at 0.635 -2.54 0)
 			(effects
 				(font
@@ -214,7 +214,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "KL_Footprints:C_0603"
 			(at 0.9652 -3.81 0)
 			(effects
 				(font
@@ -304,7 +304,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "C_100nF_10V_X7R_0603_10_0_1"
+		(symbol "C_100n_10V_X7R_0603_10_0_1"
 			(polyline
 				(pts
 					(xy -2.032 0.762) (xy 2.032 0.762)
@@ -330,7 +330,7 @@
 				)
 			)
 		)
-		(symbol "C_100nF_10V_X7R_0603_10_1_1"
+		(symbol "C_100n_10V_X7R_0603_10_1_1"
 			(pin passive line
 				(at 0 3.81 270)
 				(length 2.794)
@@ -389,7 +389,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_2u2_10V_Y5V_0603_20"
+		(property "Value" "2u2"
 			(at 0.635 -2.54 0)
 			(effects
 				(font
@@ -398,7 +398,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "KL_Footprints:C_0603"
 			(at 0.9652 -3.81 0)
 			(effects
 				(font
@@ -425,7 +425,7 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" ""
+		(property "Tolerance" "10"
 			(at 0 0 0)
 			(effects
 				(font
@@ -434,7 +434,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage" ""
+		(property "Voltage" "16"
 			(at 0 0 0)
 			(effects
 				(font
@@ -443,7 +443,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" ""
+		(property "Mouser" "963-EMK107BJ225KA-T"
 			(at 0 0 0)
 			(effects
 				(font
@@ -452,7 +452,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" ""
+		(property "Digikey" "587-1430-1-ND"
 			(at 0 0 0)
 			(effects
 				(font
@@ -461,7 +461,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C76612"
 			(at 0 0 0)
 			(effects
 				(font
@@ -582,7 +582,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "KL_Footprints:C_0603"
 			(at 0.9652 -3.81 0)
 			(effects
 				(font
@@ -627,7 +627,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" " 80-C0603C475K8PAC "
+		(property "Mouser" "80-C0603C475K8PACLR"
 			(at 0 0 0)
 			(effects
 				(font
@@ -738,7 +738,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "C_100nF_16V_X7R_0603_10"
+	(symbol "C_100n_16V_X7R_0603_10"
 		(extends "C")
 		(property "Reference" "C"
 			(at 0.635 2.54 0)
@@ -749,7 +749,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n"
 			(at 0.635 -2.54 0)
 			(effects
 				(font
@@ -758,7 +758,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "KL_Footprints:C_0603"
 			(at 0.9652 -3.81 0)
 			(effects
 				(font
@@ -849,8 +849,8 @@
 			)
 		)
 	)
-	(symbol "C_100nF_25V_X7R_0603_10"
-		(extends "C_100nF_10V_X7R_0603_10")
+	(symbol "C_100n_25V_X7R_0603_10"
+		(extends "C_100n_10V_X7R_0603_10")
 		(property "Reference" "C"
 			(at 0.635 2.54 0)
 			(effects
@@ -860,7 +860,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n"
 			(at 0.635 -2.54 0)
 			(effects
 				(font
@@ -869,7 +869,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "KL_Footprints:C_0603"
 			(at 0.9652 -3.81 0)
 			(effects
 				(font
@@ -960,7 +960,7 @@
 			)
 		)
 	)
-	(symbol "C_100nF_35V_X7R_402_10"
+	(symbol "C_100n_35V_X7R_402_10"
 		(extends "C")
 		(property "Reference" "C"
 			(at 0.635 2.54 0)
@@ -971,7 +971,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n"
 			(at 0.635 -2.54 0)
 			(effects
 				(font
@@ -980,7 +980,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "KL_Footprints:C_0603"
 			(at 0.9652 -3.81 0)
 			(effects
 				(font
@@ -1080,7 +1080,7 @@
 			)
 		)
 	)
-	(symbol "C_100nF_50V_X7R_0603_10"
+	(symbol "C_100n_50V_X7R_0603_10"
 		(extends "C")
 		(property "Reference" "C"
 			(at 0.635 2.54 0)
@@ -1091,7 +1091,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2u2"
+		(property "Value" "100n"
 			(at 0.635 -2.54 0)
 			(effects
 				(font
@@ -1100,7 +1100,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "KL_Footprints:C_0603"
 			(at 0.9652 -3.81 0)
 			(effects
 				(font
@@ -1191,7 +1191,118 @@
 			)
 		)
 	)
-	(symbol "C_10pF_25V_C0G_0603_5"
+	(symbol "C_10n_50V_X7R_0603_10"
+		(extends "C_100n_10V_X7R_0603_10")
+		(property "Reference" "C"
+			(at 0.635 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10n"
+			(at 0.635 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "KL_Footprints:C_0603"
+			(at 0.9652 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "187-CL10B103KB8WPND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "1276-CL10B103KB8WPNDCT-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C307346"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "cap capacitor"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "C_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "C_10p_25V_C0G_0603_5"
 		(extends "C")
 		(property "Reference" "C"
 			(at 0.635 2.54 0)
@@ -1202,7 +1313,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10pF"
+		(property "Value" "10p"
 			(at 0.635 -2.54 0)
 			(effects
 				(font
@@ -1211,7 +1322,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "KL_Footprints:C_0603"
 			(at 0.9652 -3.81 0)
 			(effects
 				(font
@@ -1302,7 +1413,7 @@
 			)
 		)
 	)
-	(symbol "C_10uF_25V_X5R_0603_20"
+	(symbol "C_10u_25V_X5R_0603_20"
 		(extends "C")
 		(property "Reference" "C"
 			(at 0.635 2.54 0)
@@ -1322,7 +1433,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "KL_Footprints:C_0603"
 			(at 0.9652 -3.81 0)
 			(effects
 				(font
@@ -1413,8 +1524,8 @@
 			)
 		)
 	)
-	(symbol "C_10uF_10V_X5R_0603_20"
-		(extends "C_10uF_25V_X5R_0603_20")
+	(symbol "C_22u_10V_X5R_0603_20"
+		(extends "C_2u2_10V_Y5V_0603_20")
 		(property "Reference" "C"
 			(at 0.635 2.54 0)
 			(effects
@@ -1424,7 +1535,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22uF"
+		(property "Value" "22u"
 			(at 0.635 -2.54 0)
 			(effects
 				(font
@@ -1433,7 +1544,118 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "KL_Footprints:C_0603"
+			(at 0.9652 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "20"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "10V"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "81-GRM187R61A226ME5D"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "490-13243-1-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C361061"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "cap capacitor"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "C_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "C_10u_10V_X5R_0603_20"
+		(extends "C_10u_25V_X5R_0603_20")
+		(property "Reference" "C"
+			(at 0.635 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 0.635 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "KL_Footprints:C_0603"
 			(at 0.9652 -3.81 0)
 			(effects
 				(font

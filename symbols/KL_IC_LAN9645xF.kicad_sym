@@ -7,7 +7,15 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 15.24 21.59 0)
+			(at 0.762 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LAN96455F-I/8MW"
+			(at 0 -16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15,16 +23,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_QFP:TQFP-128_14x14mm_P0.4mm"
-			(at 16.002 23.622 0)
+		(property "Footprint" "KL_Footprints:TQFP-128_14x14mm_P0.4mm"
+			(at 16.002 7.112 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33,7 +33,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 -16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42,6 +42,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 0 -16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "579-LAN96455FI8MW"
 			(at 0 0 0)
 			(effects
 				(font
@@ -50,8 +59,89 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "LAN96455F-I/8MW"
-			(at 15.24 25.908 0)
+		(property "Digikey" "150-LAN96455F-I/8MW-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "I_DD_1V15_max_A" "0.935"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "I_DD_AL_1V15_max_A" "0.400"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "I_DD_ALSx_1V15_max_A" "0.025"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "I_DD_AH25_2V5_max_A" "0.475"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "I_DD_AH33_3V3_max_A" "0.505"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "I_DD_IO25_2V5_max_A" "0.045"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "I_DD_IO33_3V3_max_A" "0.075"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "I_DD_IOD" "0.005"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -86,7 +176,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at -5.08 -22.86 0)
 				(length 5.08)
 				(name "VDD_AH"
@@ -104,7 +194,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at -5.08 -26.67 0)
 				(length 5.08)
 				(name "VDD_AH"
@@ -122,7 +212,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at -5.08 -30.48 0)
 				(length 5.08)
 				(name "VDD_AH"
@@ -140,8 +230,8 @@
 					)
 				)
 			)
-			(pin input line
-				(at -5.08 -82.55 0)
+			(pin output line
+				(at -5.08 -80.01 0)
 				(length 5.08)
 				(name "XO"
 					(effects
@@ -176,7 +266,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at 35.56 0 180)
 				(length 5.08)
 				(name "VDD_AL"
@@ -194,7 +284,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at 35.56 -3.81 180)
 				(length 5.08)
 				(name "VDD_AL"
@@ -485,7 +575,7 @@
 					(justify right)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at -5.08 2.54 0)
 				(length 5.08)
 				(name "VDD_PLL"
@@ -503,7 +593,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at -5.08 -11.43 0)
 				(length 5.08)
 				(name "VDD_AH"
@@ -521,7 +611,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at -5.08 -15.24 0)
 				(length 5.08)
 				(name "VDD_AH"
@@ -539,7 +629,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at -5.08 -19.05 0)
 				(length 5.08)
 				(name "VDD_AH"
@@ -557,7 +647,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at -5.08 -40.64 0)
 				(length 5.08)
 				(name "VDD_ALS0"
@@ -575,7 +665,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at -5.08 -49.53 0)
 				(length 5.08)
 				(name "VDD_IO_A"
@@ -593,7 +683,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at -5.08 -59.69 0)
 				(length 5.08)
 				(name "VDD_IO_B"
@@ -611,7 +701,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at -5.08 -63.5 0)
 				(length 5.08)
 				(name "VDD_IO_B"
@@ -629,7 +719,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at -5.08 -73.66 0)
 				(length 5.08)
 				(name "VDD_IO_D"
@@ -648,7 +738,7 @@
 				)
 			)
 			(pin input line
-				(at -5.08 -78.74 0)
+				(at 16.51 -92.71 90)
 				(length 5.08)
 				(name "GND_PAD"
 					(effects
@@ -665,7 +755,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at 35.56 11.43 180)
 				(length 5.08)
 				(name "VDD_AL"
@@ -683,7 +773,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at 35.56 7.62 180)
 				(length 5.08)
 				(name "VDD_AL"
@@ -701,7 +791,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at 35.56 3.81 180)
 				(length 5.08)
 				(name "VDD_AL"
@@ -719,7 +809,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at 35.56 -12.7 180)
 				(length 5.08)
 				(name "VDD_ALS1"
@@ -737,7 +827,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at 35.56 -24.13 180)
 				(length 5.08)
 				(name "VDD_AHS"
@@ -755,7 +845,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at 35.56 -27.94 180)
 				(length 5.08)
 				(name "VDD_AHS"
@@ -773,7 +863,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at 35.56 -34.29 180)
 				(length 5.08)
 				(name "VDD"
@@ -791,7 +881,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at 35.56 -38.1 180)
 				(length 5.08)
 				(name "VDD"
@@ -809,7 +899,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at 35.56 -41.91 180)
 				(length 5.08)
 				(name "VDD"
@@ -827,7 +917,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at 35.56 -45.72 180)
 				(length 5.08)
 				(name "VDD"
@@ -845,7 +935,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at 35.56 -49.53 180)
 				(length 5.08)
 				(name "VDD"
@@ -863,7 +953,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at 35.56 -58.42 180)
 				(length 5.08)
 				(name "VDD_IO_C"
@@ -881,7 +971,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at 35.56 -62.23 180)
 				(length 5.08)
 				(name "VDD_IO_C"
@@ -899,7 +989,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at 35.56 -71.12 180)
 				(length 5.08)
 				(name "VDD_IO_E"
@@ -917,7 +1007,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at 35.56 -74.93 180)
 				(length 5.08)
 				(name "VDD_IO_E"
@@ -956,7 +1046,7 @@
 		)
 		(symbol "lan9645xF_128_TQFP_2_0"
 			(pin input line
-				(at -5.08 8.89 0)
+				(at -5.08 -7.62 0)
 				(length 5.08)
 				(name "GPIO_43/SI_CLK/PHY0_LED1/SG0_LD/IRQ3/MAC_LED8/SD1/TMS"
 					(effects
@@ -974,7 +1064,7 @@
 				)
 			)
 			(pin input line
-				(at -5.08 6.35 0)
+				(at -5.08 -10.16 0)
 				(length 5.08)
 				(name "GPIO_42/SI_nCS/PHY0_LED0/SG0_DI/IRQ2/MAC_LED7/SD0/NTRST"
 					(effects
@@ -992,7 +1082,7 @@
 				)
 			)
 			(pin input line
-				(at -5.08 3.81 0)
+				(at -5.08 -12.7 0)
 				(length 5.08)
 				(name "GPIO_41/SI_DO/PHY1_LED1/SG0_DO/IRQ1/MAC_LED6/-/TDO|XMII_MODE0"
 					(effects
@@ -1010,7 +1100,7 @@
 				)
 			)
 			(pin input line
-				(at -5.08 1.27 0)
+				(at -5.08 -15.24 0)
 				(length 5.08)
 				(name "GPIO_40/SI_DI/PHY1_LED0/SG0_CLK/-/MAC_LED5/-/TCK|SD_MODE1"
 					(effects
@@ -1028,7 +1118,7 @@
 				)
 			)
 			(pin input line
-				(at -5.08 -1.27 0)
+				(at -5.08 -17.78 0)
 				(length 5.08)
 				(name "GPIO_39/UART_TXD/PHY2_LED1/-/-/MAC_LED4/-/TDI|SD_MODE0"
 					(effects
@@ -1046,7 +1136,7 @@
 				)
 			)
 			(pin input line
-				(at -5.08 -3.81 0)
+				(at -5.08 -20.32 0)
 				(length 5.08)
 				(name "GPIO_38/-/PHY2_LED0/PHY0_LED0/-/MAC_LED3/-/-|XMII_MODE1"
 					(effects
@@ -1064,7 +1154,7 @@
 				)
 			)
 			(pin input line
-				(at -5.08 -6.35 0)
+				(at -5.08 -22.86 0)
 				(length 5.08)
 				(name "GPIO_37/PTP1/PHY3_LED1/PHY1_LED0/-/MAC_LED2/-/-|GPIO_MODE1"
 					(effects
@@ -1082,7 +1172,7 @@
 				)
 			)
 			(pin input line
-				(at -5.08 -8.89 0)
+				(at -5.08 -25.4 0)
 				(length 5.08)
 				(name "GPIO_36/PTP0/PHY3_LED0/PHY2_LED0/-/MAC_LED1/-/-|GPIO_MODE0"
 					(effects
@@ -1100,7 +1190,7 @@
 				)
 			)
 			(pin input line
-				(at -5.08 -11.43 0)
+				(at -5.08 -27.94 0)
 				(length 5.08)
 				(name "GPIO_35/RCLK1/PHY4_LED1/PHY3_LED0/-/MAC_LED0/-/-|LOOP_EN"
 					(effects
@@ -1118,7 +1208,7 @@
 				)
 			)
 			(pin input line
-				(at -5.08 -13.97 0)
+				(at -5.08 -30.48 0)
 				(length 5.08)
 				(name "GPIO_34/RCLK0/PHY4_LED0/PHY4_LED0/-/-/-/-|JTAG_EN"
 					(effects
@@ -1136,7 +1226,7 @@
 				)
 			)
 			(pin input line
-				(at -5.08 -16.51 0)
+				(at -5.08 -33.02 0)
 				(length 5.08)
 				(name "GPIO_33/PTP3/IRQ0/|EEPROM_SIZE"
 					(effects
@@ -1154,7 +1244,7 @@
 				)
 			)
 			(pin input line
-				(at -5.08 -19.05 0)
+				(at -5.08 -35.56 0)
 				(length 5.08)
 				(name "GPIO_32/PTP2/I2C0_SCL1/-/-/-/-/-"
 					(effects
@@ -1172,7 +1262,7 @@
 				)
 			)
 			(pin input line
-				(at -5.08 -21.59 0)
+				(at -5.08 -38.1 0)
 				(length 5.08)
 				(name "GPIO_31/PTP1/I2C0_SCL0/UART_TXD/-/-/-/-"
 					(effects
@@ -1190,7 +1280,7 @@
 				)
 			)
 			(pin input line
-				(at -5.08 -24.13 0)
+				(at -5.08 -40.64 0)
 				(length 5.08)
 				(name "GPIO_30/PTP0/I2C0_SDA/UART_RXD/-/-/-/-"
 					(effects
@@ -1208,7 +1298,7 @@
 				)
 			)
 			(pin input line
-				(at -5.08 -26.67 0)
+				(at -5.08 -43.18 0)
 				(length 5.08)
 				(name "GPIO_29/RCLK1/MIIM0_MDIO/-/-/-/-/-"
 					(effects
@@ -1226,7 +1316,7 @@
 				)
 			)
 			(pin input line
-				(at -5.08 -29.21 0)
+				(at -5.08 -45.72 0)
 				(length 5.08)
 				(name "GPIO_28/RCLK0/MIIM0_MDC/-/-/-/-/-|MGMT_MODE1"
 					(effects
@@ -1244,7 +1334,7 @@
 				)
 			)
 			(pin input line
-				(at -5.08 -31.75 0)
+				(at -5.08 -48.26 0)
 				(length 5.08)
 				(name "GPIO_27/RGMII0_TXD3/-/-/-/-/-/-|MGMT_MODE0"
 					(effects
@@ -1262,7 +1352,7 @@
 				)
 			)
 			(pin input line
-				(at -5.08 -34.29 0)
+				(at -5.08 -50.8 0)
 				(length 5.08)
 				(name "GPIO_26/RGMII0_TXD2/-/-/-/-/-/-|BOOT_MODE2"
 					(effects
@@ -1280,7 +1370,7 @@
 				)
 			)
 			(pin input line
-				(at -5.08 -36.83 0)
+				(at -5.08 -53.34 0)
 				(length 5.08)
 				(name "GPIO_25/RGMII0_TXD1/-/-/-/-/-/-|BOOT_MODE1"
 					(effects
@@ -1298,7 +1388,7 @@
 				)
 			)
 			(pin input line
-				(at -5.08 -39.37 0)
+				(at -5.08 -55.88 0)
 				(length 5.08)
 				(name "GPIO_24/RGMII0_TXD0/-/-/-/-/-/-|BOOT_MODE0"
 					(effects
@@ -1316,9 +1406,9 @@
 				)
 			)
 			(pin input line
-				(at -5.08 -41.91 0)
+				(at -5.08 -58.42 0)
 				(length 5.08)
-				(name "GPIO_23/RGMII0_TXCTLR/-/-/-/-/-/-|SD_125M"
+				(name "GPIO_23/RGMII0_TXCTL-TX_DV/-/-/-/-/-/-|SD_125M"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1334,9 +1424,9 @@
 				)
 			)
 			(pin input line
-				(at -5.08 -44.45 0)
+				(at -5.08 -60.96 0)
 				(length 5.08)
-				(name "GPIO_22/RGMII0_TXC_REFCLK/-/-/-/-/-/-|GPIO_EN"
+				(name "GPIO_22/RGMII0_TXC-REFCLK/-/-/-/-/-/-|GPIO_EN"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1352,9 +1442,9 @@
 				)
 			)
 			(pin input line
-				(at -5.08 -46.99 0)
+				(at -5.08 -63.5 0)
 				(length 5.08)
-				(name "GPIO_21/RGMII0_RXCTLR-TX_DV"
+				(name "GPIO_21/RGMII0_RXCTL-CRS_DV"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1370,9 +1460,9 @@
 				)
 			)
 			(pin input line
-				(at -5.08 -49.53 0)
+				(at -5.08 -66.04 0)
 				(length 5.08)
-				(name "GPIO_20/RGMII0_RXC_REFCLK"
+				(name "GPIO_20/RGMII0_RXC-REFCLK"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1388,7 +1478,7 @@
 				)
 			)
 			(pin input line
-				(at -5.08 -52.07 0)
+				(at -5.08 -68.58 0)
 				(length 5.08)
 				(name "GPIO_19/RGMII0_RXD3"
 					(effects
@@ -1406,7 +1496,7 @@
 				)
 			)
 			(pin input line
-				(at -5.08 -54.61 0)
+				(at -5.08 -71.12 0)
 				(length 5.08)
 				(name "GPIO_18/RGMII0_RXD2-RXER"
 					(effects
@@ -1424,7 +1514,7 @@
 				)
 			)
 			(pin input line
-				(at -5.08 -57.15 0)
+				(at -5.08 -73.66 0)
 				(length 5.08)
 				(name "GPIO_17/RGMII0_RXD1"
 					(effects
@@ -1442,7 +1532,7 @@
 				)
 			)
 			(pin input line
-				(at -5.08 -59.69 0)
+				(at -5.08 -76.2 0)
 				(length 5.08)
 				(name "GPIO_16/RGMII0_RXD0"
 					(effects
@@ -1460,7 +1550,7 @@
 				)
 			)
 			(pin input line
-				(at -5.08 -62.23 0)
+				(at -5.08 -78.74 0)
 				(length 5.08)
 				(name "GPIO_15/RGMII1_TXD3/I2C0_SCL13/-/PTP3/-/-/-|SFP_EN"
 					(effects
@@ -1478,7 +1568,7 @@
 				)
 			)
 			(pin input line
-				(at -5.08 -64.77 0)
+				(at -5.08 -81.28 0)
 				(length 5.08)
 				(name "GPIO_14/RGMII1_TXD2/I2C0_SCL12/-/PTP2/-/MAC_LED5/-/-|_CUPHY_MODE"
 					(effects
@@ -1496,7 +1586,7 @@
 				)
 			)
 			(pin input line
-				(at -5.08 -67.31 0)
+				(at -5.08 -83.82 0)
 				(length 5.08)
 				(name "GPIO_13/RGMII1_TXD1/I2C0_SCL11/-/PTP1/MAC_LED6/-/-|LED_MODE"
 					(effects
@@ -1514,7 +1604,7 @@
 				)
 			)
 			(pin input line
-				(at -5.08 -69.85 0)
+				(at -5.08 -86.36 0)
 				(length 5.08)
 				(name "GPIO_12/RGMII1_TXD0/I2C0_SCL10/MIIM1_MDIO/PTP0/-/-/-|EEE_EN"
 					(effects
@@ -1532,9 +1622,9 @@
 				)
 			)
 			(pin input line
-				(at -5.08 -72.39 0)
+				(at -5.08 -88.9 0)
 				(length 5.08)
-				(name "GPIO_11/RGMII1_TXCTL-_TX_DV/I2C0_SCL9/MIIM1_MDC/-/IRQ3/-/-|_FLOW_EN"
+				(name "GPIO_11/RGMII1_TXCTL-TX_DV/I2C0_SCL9/MIIM1_MDC/-/IRQ3/-/-|_FLOW_EN"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1550,9 +1640,9 @@
 				)
 			)
 			(pin input line
-				(at -5.08 -74.93 0)
+				(at -5.08 -91.44 0)
 				(length 5.08)
-				(name "GPIO_10/RGMII1_TXC-_REFCLK/I2C0_SCL8/RCLK1/SG0_LD/IRQ2/UART_TXD/-|_E2E_CLOCK_EN"
+				(name "GPIO_10/RGMII1_TXC-REFCLK/I2C0_SCL8/RCLK1/SG0_LD/IRQ2/UART_TXD/-|_E2E_CLOCK_EN"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1568,9 +1658,9 @@
 				)
 			)
 			(pin input line
-				(at -5.08 -77.47 0)
+				(at -5.08 -93.98 0)
 				(length 5.08)
-				(name "GPIO_9/RGMII1_RXCTL-_CRS_DV/I2C0_SCL7/RCLK0/SG0_DI/IRQ1/UART_RXD/-"
+				(name "GPIO_9/RGMII1_RXCTL-CRS_DV/I2C0_SCL7/RCLK0/SG0_DI/IRQ1/UART_RXD/-"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1586,9 +1676,9 @@
 				)
 			)
 			(pin input line
-				(at -5.08 -80.01 0)
+				(at -5.08 -96.52 0)
 				(length 5.08)
-				(name "GPIO_8/RGMII1_RXC-_REFCLK/I2C0_SCL6/SD1/SG0_DO/MIIM1_MDIO/-/-"
+				(name "GPIO_8/RGMII1_RXC-REFCLK/I2C0_SCL6/SD1/SG0_DO/MIIM1_MDIO/-/-"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1604,7 +1694,7 @@
 				)
 			)
 			(pin input line
-				(at -5.08 -82.55 0)
+				(at -5.08 -99.06 0)
 				(length 5.08)
 				(name "GPIO_7/RGMII1_RXD3/I2C0_SCL5/SD0/SG0_CLK/MIIM1_MDC/SI_SLV_CLK/-"
 					(effects
@@ -1622,9 +1712,9 @@
 				)
 			)
 			(pin input line
-				(at -5.08 -85.09 0)
+				(at -5.08 -101.6 0)
 				(length 5.08)
-				(name "GPIO_6/RGMII1_RXD2-_RXER/I2C0_SCL4/-/-/-/SI_SLV_nCS/-"
+				(name "GPIO_6/RGMII1_RXD2-RXER/I2C0_SCL4/-/-/-/SI_SLV_nCS/-"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1640,9 +1730,9 @@
 				)
 			)
 			(pin input line
-				(at -5.08 -87.63 0)
+				(at -5.08 -104.14 0)
 				(length 5.08)
-				(name "GPIO_5/RGMII_RXD1/I2C0_SCL3/I2C1_SCL/-/-/SI_SLV_DO/-"
+				(name "GPIO_5/RGMII1_RXD1/I2C0_SCL3/I2C1_SCL/-/-/SI_SLV_DO/-"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1658,7 +1748,7 @@
 				)
 			)
 			(pin input line
-				(at -5.08 -90.17 0)
+				(at -5.08 -106.68 0)
 				(length 5.08)
 				(name "GPIO_4/RGMII1_RXD0/I2C0_SCL2/I2C1_SDA/-/-/SI_SVL_DI/-"
 					(effects
@@ -1676,7 +1766,7 @@
 				)
 			)
 			(pin input line
-				(at -5.08 -92.71 0)
+				(at -5.08 -109.22 0)
 				(length 5.08)
 				(name "GPIO_3/SI_CLK//SI_SLV_CLK/I2C1_SCL/MIIM_SLV_MDIO/-/-/-"
 					(effects
@@ -1694,7 +1784,7 @@
 				)
 			)
 			(pin input line
-				(at -5.08 -95.25 0)
+				(at -5.08 -111.76 0)
 				(length 5.08)
 				(name "GPIO_2/SI_nCS/SI_SLV_nCS/I2C1_SDA/-/-/-/-"
 					(effects
@@ -1712,7 +1802,7 @@
 				)
 			)
 			(pin input line
-				(at -5.08 -97.79 0)
+				(at -5.08 -114.3 0)
 				(length 5.08)
 				(name "GPIO_1/SI_DO/SI_SLV_DO/I2C_SLV_SCL/MIIM_SLV_MDC/UART_TXD/MIIM_MDIO/-"
 					(effects
@@ -1732,8 +1822,8 @@
 		)
 		(symbol "lan9645xF_128_TQFP_2_1"
 			(rectangle
-				(start 0 16.51)
-				(end 100.33 -102.87)
+				(start 0 0)
+				(end 100.33 -119.38)
 				(stroke
 					(width 0)
 					(type default)
@@ -1743,7 +1833,7 @@
 				)
 			)
 			(text "GPIOS/ALT1/ALT2/ALT3/ALT4/ALT5/ALT6/Manual/|Strapping"
-				(at 5.334 14.986 0)
+				(at 5.334 -1.524 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1752,7 +1842,7 @@
 				)
 			)
 			(pin input line
-				(at -5.08 -100.33 0)
+				(at -5.08 -116.84 0)
 				(length 5.08)
 				(name "GPIO_0/SI_DI/SI_SLV_DI/I2C_SLV_SDA/MIIM_SLV_ADDR/UART_RXD/MIIM1_MDC/-"
 					(effects
@@ -2494,7 +2584,7 @@
 			(pin input line
 				(at 30.48 -100.33 180)
 				(length 5.08)
-				(name "ISSET"
+				(name "ISET"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2619,24 +2709,6 @@
 			)
 		)
 		(symbol "lan9645xF_128_TQFP_4_0"
-			(pin input line
-				(at -5.08 22.86 0)
-				(length 2.54)
-				(name "RESREF"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "51"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin input line
 				(at -5.08 -5.08 0)
 				(length 5.08)
@@ -2792,6 +2864,24 @@
 					)
 				)
 				(number "45"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 31.75 -33.02 180)
+				(length 2.54)
+				(name "RESREF"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "51"
 					(effects
 						(font
 							(size 1.27 1.27)

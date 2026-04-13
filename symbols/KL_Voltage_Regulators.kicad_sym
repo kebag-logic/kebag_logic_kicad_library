@@ -54,7 +54,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" " 595-TPS564257DRLR "
+		(property "Mouser" "595-TPS564257DRLR "
 			(at 0 0 0)
 			(effects
 				(font
@@ -73,6 +73,24 @@
 			)
 		)
 		(property "LCSC" "C19272233"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "I_OUT_A" "4"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "I_VIN_A" "0.000370"
 			(at 0 0 0)
 			(effects
 				(font
@@ -166,43 +184,7 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 0 -6.35 0)
-				(length 7.62)
-				(name "EN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 40.64 2.54 180)
-				(length 7.62)
-				(name "SW"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
+			(pin passive line
 				(at 40.64 -1.27 180)
 				(length 7.62)
 				(name "PG"
@@ -220,7 +202,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 40.64 -5.08 180)
 				(length 7.62)
 				(name "FB"
@@ -238,7 +220,45 @@
 					)
 				)
 			)
+		)
+		(symbol "TPS564257DRLR_1_1"
+			(pin passive line
+				(at 0 -6.35 0)
+				(length 7.62)
+				(name "EN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin power_out line
+				(at 40.64 2.54 180)
+				(length 7.62)
+				(name "SW"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
 				(at 40.64 -8.89 180)
 				(length 7.62)
 				(name "GND"

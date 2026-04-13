@@ -1,4 +1,4 @@
-(footprint "lan9645xf-TQFP-128_14x14mm_P0.4mm"
+(footprint "TQFP-128_14x14mm_P0.4mm"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -19,6 +19,7 @@
 	(property "Value" "lan9645xf-TQFP-128_14x14mm_P0.4mm"
 		(at 0 9.35 0)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "be747df9-a488-4544-85d8-0f9329d39fc1")
 		(effects
 			(font
@@ -51,7 +52,7 @@
 			)
 		)
 	)
-	(attr smd)
+	(attr through_hole)
 	(fp_line
 		(start -7.11 -7.11)
 		(end -6.585 -7.11)
@@ -346,6 +347,18 @@
 	)
 	(fp_poly
 		(pts
+			(xy -7.749872 -6.590406) (xy -8.089872 -7.060406) (xy -7.409872 -7.060406)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "dca90615-0b3d-4849-8d6b-74685118f473")
+	)
+	(fp_poly
+		(pts
 			(xy -7 -6) (xy -7 7) (xy 7 7) (xy 7 -7) (xy -6 -7)
 		)
 		(stroke
@@ -357,7 +370,7 @@
 		(uuid "ae3ce879-40dc-47e6-ab46-0216fb4229cc")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 -5 0)
+		(at 0 -9.35 0)
 		(layer "F.Fab")
 		(uuid "dd014d30-cae7-471a-a231-5878a221ce45")
 		(effects

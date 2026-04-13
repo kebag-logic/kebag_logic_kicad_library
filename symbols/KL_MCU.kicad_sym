@@ -15,7 +15,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "STM32H742VGTx"
+		(property "Value" "STM32H742VGT6"
 			(at 4.6833 -71.12 0)
 			(effects
 				(font
@@ -24,7 +24,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_QFP:LQFP-100_14x14mm_P0.5mm"
+		(property "Footprint" "KL_Footprints:LQFP-100_14x14mm_P0.5mm"
 			(at -17.78 -66.04 0)
 			(effects
 				(font
@@ -44,6 +44,42 @@
 			)
 		)
 		(property "Description" "STMicroelectronics Arm Cortex-M7 MCU, 1024KB flash, 692KB RAM, 480 MHz, 1.71-3.6V, 82 GPIO, LQFP100"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "511-STM32H742VGT6"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "497-STM32H742VGT6-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C730175"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "I_DD_max_A" "0.544"
 			(at 0 0 0)
 			(effects
 				(font

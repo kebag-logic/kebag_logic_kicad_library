@@ -154,7 +154,7 @@
 		(uuid "71467948-a49c-423b-99bb-7b32e973f0ed")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 0 0)
+		(at 0 -2.63 0)
 		(layer "F.Fab")
 		(uuid "959d6e88-5f10-4bdb-bc95-aab9b9066b69")
 		(effects
@@ -168,18 +168,18 @@
 		(at -2.9625 0)
 		(size 1.225 3.35)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(roundrect_rratio 0.204082)
+		(roundrect_rratio 0.25)
 		(uuid "7c9129f6-d46f-4edf-b2c0-de35ad77002e")
 	)
 	(pad "2" smd roundrect
 		(at 2.9625 0)
 		(size 1.225 3.35)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(roundrect_rratio 0.204082)
+		(roundrect_rratio 0.25)
 		(uuid "df75ad7d-a4f4-446b-b560-be84a2641692")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_2512_6332Metric.step"
+	(model "${KL_LIB}/3dmodels/Resistor_SMD.3dshapes/R_2512_6332Metric.step"
 		(offset
 			(xyz 0 0 0)
 		)

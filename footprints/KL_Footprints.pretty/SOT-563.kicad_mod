@@ -5,7 +5,7 @@
 	(layer "F.Cu")
 	(tags "XTPS564257DRLR ")
 	(property "Reference" "REF**"
-		(at 0 0 0)
+		(at 0 -2 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "74e159ee-ffee-4b49-9630-b60e08239cea")
@@ -20,6 +20,7 @@
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "64b3b08b-5f02-4d34-adc0-8d02a66f81f7")
 		(effects
 			(font
@@ -256,7 +257,7 @@
 		(uuid "5969bdff-2a11-4b18-bdc0-3ad52cd8ee31")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 0 0)
+		(at 0 -2 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "1e184e8c-dc28-4655-92c9-dedd7fdcb83d")

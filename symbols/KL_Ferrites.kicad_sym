@@ -3,11 +3,15 @@
 	(generator "kicad_symbol_editor")
 	(generator_version "9.0")
 	(symbol "KL_FerritBead_{Value}_{CurrentMax}"
+		(pin_numbers
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "FB"
-			(at 0 0 0)
+			(at 0 3.81 0)
+			(do_not_autoplace)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15,7 +19,8 @@
 			)
 		)
 		(property "Value" "33R"
-			(at -4.064 -5.334 0)
+			(at 0 -4.572 0)
+			(do_not_autoplace)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23,7 +28,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 0 0 0)
+			(at 0 3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32,7 +37,184 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Current Max" ""
+			(at 3.81 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer #" ""
+			(at 19.558 7.112 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 19.812 2.794 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Farnell" ""
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 17.272 5.334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "KL_FerritBead_{Value}_{CurrentMax}_0_1"
+			(polyline
+				(pts
+					(xy -1.27 0) (xy -1.2954 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.4064 -2.7686) (xy -2.2606 -1.7018) (xy 0.3048 2.7686) (xy 2.159 1.6764) (xy -0.4064 -2.7686)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 0) (xy 1.2192 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "KL_FerritBead_{Value}_{CurrentMax}_1_1"
+			(pin passive line
+				(at -3.81 0 0)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 3.81 0 180)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "KL_FerritBead_33_3"
+		(extends "KL_FerritBead_{Value}_{CurrentMax}")
+		(property "Reference" "FB"
+			(at 0 4.064 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33R"
+			(at -0.254 -4.064 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "KL_Footprints:BLM18P"
+			(at 6.858 16.002 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://pim.murata.com/asset/pim4/ferriteBeadInductortypefilter/ENFA0003_PDF_FERRITEBEADINDUCTORTYPEFILTER?lastModifiedDatetime=20250707190934"
+			(at 0.762 20.574 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59,7 +241,7 @@
 			)
 		)
 		(property "Manufacturer #" "BLM18PG330SN1D"
-			(at 0 0 0)
+			(at -15.748 6.604 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -67,8 +249,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" " 81-BLM18PG330SN1D"
-			(at 0 0 0)
+		(property "Mouser" "81-BLM18PG330SN1D"
+			(at -17.78 2.286 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -76,8 +258,8 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "490-5220-2-ND;490-5220-1-ND;490-5220-6-ND"
-			(at 0 0 0)
+		(property "Digikey" "490-5220-1-ND"
+			(at -13.716 8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -86,7 +268,7 @@
 			)
 		)
 		(property "Farnell" "1515742"
-			(at 0 0 0)
+			(at -19.812 10.668 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -95,130 +277,7 @@
 			)
 		)
 		(property "LCSC" "C88984"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "KL_FerritBead_{Value}_{CurrentMax}_0_1"
-			(polyline
-				(pts
-					(xy -1.27 -3.81) (xy -1.2954 -3.81)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -0.4064 -6.5786) (xy -2.2606 -5.5118) (xy 0.3048 -1.0414) (xy 2.159 -2.1336) (xy -0.4064 -6.5786)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.27 -3.81) (xy 1.2192 -3.81)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "KL_FerritBead_{Value}_{CurrentMax}_1_1"
-			(pin passive line
-				(at -3.81 -3.81 0)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 3.81 -3.81 180)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(embedded_fonts no)
-	)
-	(symbol "KL_FerritBead_33_3A"
-		(extends "KL_FerritBead_{Value}_{CurrentMax}")
-		(property "Reference" "FB"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "33R"
-			(at -4.064 -5.334 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
+			(at -21.082 4.318 0)
 			(effects
 				(font
 					(size 1.27 1.27)
