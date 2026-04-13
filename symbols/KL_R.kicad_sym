@@ -89,6 +89,17 @@
 				)
 			)
 		)
+		(property "MPN" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Mouser" ""
 			(at 0 0 0)
 			(show_name no)
@@ -295,6 +306,17 @@
 				)
 			)
 		)
+		(property "MPN" "RC0603JR-070RP"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Mouser" "603-RC0603JR-070RP"
 			(at 0 0 0)
 			(show_name no)
@@ -430,6 +452,17 @@
 			)
 		)
 		(property "Tolerance_in_pct" "0.5"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RCS06030000Z0EA"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -595,6 +628,17 @@
 				)
 			)
 		)
+		(property "MPN" "CRF2512-J/-000ELF"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Mouser" "652-CRF2512-J-000ELF"
 			(at 0 0 0)
 			(show_name no)
@@ -740,6 +784,17 @@
 			)
 		)
 		(property "Tolerance_in_pct" "5"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "3522ZR"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -905,6 +960,17 @@
 				)
 			)
 		)
+		(property "MPN" "RC0603FR-07100KL"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Mouser" "603-RC0603FR-07100KL"
 			(at 0 0 0)
 			(show_name no)
@@ -1050,6 +1116,17 @@
 			)
 		)
 		(property "Tolerance_in_pct" "1"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CR0603-FX-1022ELF"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1215,6 +1292,17 @@
 				)
 			)
 		)
+		(property "MPN" "RC0603FR-0710KL"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Mouser" "603-RC0603FR-0710KL"
 			(at 0 0 0)
 			(show_name no)
@@ -1360,6 +1448,17 @@
 			)
 		)
 		(property "Tolerance_in_pct" "5"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CRCW060310K0JNEC"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1525,6 +1624,17 @@
 				)
 			)
 		)
+		(property "MPN" "RNCE0603BTE10R0"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Mouser" "708-RNCE0603BTE10R0"
 			(at 0 0 0)
 			(show_name no)
@@ -1670,6 +1780,17 @@
 			)
 		)
 		(property "Tolerance_in_pct" "1"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0603FR-0711KL"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1835,6 +1956,17 @@
 				)
 			)
 		)
+		(property "MPN" "RC0603JR-07120RL"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Mouser" "603-RC0603JR-07120RL"
 			(at 0 0 0)
 			(show_name no)
@@ -1980,6 +2112,17 @@
 			)
 		)
 		(property "Tolerance_in_pct" "1"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RT0603FRE0712KL"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2145,6 +2288,17 @@
 				)
 			)
 		)
+		(property "MPN" "AC0603JR-071K5L"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Mouser" "603-AC0603JR-071K5L"
 			(at 0 0 0)
 			(show_name no)
@@ -2290,6 +2444,17 @@
 			)
 		)
 		(property "Tolerance_in_pct" "5"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CRGCQ0603J1K0"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2455,6 +2620,17 @@
 				)
 			)
 		)
+		(property "MPN" "RC0603FR-1320KL"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Mouser" "603-RC0603FR-1320KL"
 			(at 0 0 0)
 			(show_name no)
@@ -2600,6 +2776,17 @@
 			)
 		)
 		(property "Tolerance_in_pct" "1"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0603FR-1022RL"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2765,6 +2952,17 @@
 				)
 			)
 		)
+		(property "MPN" "CRCW060331K6FKEA"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Mouser" "71-CRCW0603-31.6K-E3"
 			(at 0 0 0)
 			(show_name no)
@@ -2920,6 +3118,17 @@
 				)
 			)
 		)
+		(property "MPN" "RC0603FR-07330RL"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Mouser" "603-RC0603FR-07330RL"
 			(at 0 0 0)
 			(show_name no)
@@ -3065,6 +3274,17 @@
 			)
 		)
 		(property "Tolerance_in_pct" "1"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0603FR-0745K3L"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3230,6 +3450,17 @@
 				)
 			)
 		)
+		(property "MPN" "RN73H1JTTD4592F100"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Mouser" "660-RN73H1JT4592F100"
 			(at 0 0 0)
 			(show_name no)
@@ -3375,6 +3606,17 @@
 			)
 		)
 		(property "Tolerance_in_pct" "1"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0603FR-0747KP"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3540,6 +3782,17 @@
 				)
 			)
 		)
+		(property "MPN" "RC0603JR-134K7L"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Mouser" "603-RC0603JR-134K7L"
 			(at 0 0 0)
 			(show_name no)
@@ -3685,6 +3938,17 @@
 			)
 		)
 		(property "Tolerance_in_pct" "1"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RMCF0603FT6K04"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3850,6 +4114,17 @@
 				)
 			)
 		)
+		(property "MPN" "CRCW04028K25FKEDC"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Mouser" "71-CRCW04028K25FKEDC"
 			(at 0 0 0)
 			(show_name no)
@@ -4005,6 +4280,17 @@
 				)
 			)
 		)
+		(property "MPN" "RC0603FR-078K25L"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Mouser" "603-RC0603FR-078K25L"
 			(at 0 0 0)
 			(show_name no)
@@ -4150,6 +4436,17 @@
 			)
 		)
 		(property "Tolerance_in_pct" "1"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0603FR-079K1L"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
