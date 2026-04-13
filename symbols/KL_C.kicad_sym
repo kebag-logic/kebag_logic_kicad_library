@@ -113,6 +113,17 @@
 				)
 			)
 		)
+		(property "MPN" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Mouser" ""
 			(at 0 0 0)
 			(show_name no)
@@ -335,6 +346,17 @@
 				)
 			)
 		)
+		(property "MPN" "CC0603KRX7R6BB104"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Mouser" "603-CC603KRX7R6BB104"
 			(at 0 0 0)
 			(show_name no)
@@ -483,6 +505,17 @@
 			)
 		)
 		(property "Package_in_inch" "0603"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CC0603KPX7R7BB104"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -651,6 +684,17 @@
 				)
 			)
 		)
+		(property "MPN" "CL10B104KA8NNNC"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Mouser" "187-CL10B104KA8NNNC"
 			(at 0 0 0)
 			(show_name no)
@@ -799,6 +843,17 @@
 			)
 		)
 		(property "Package_in_inch" "0402"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CGA2B3X7R1V104K050BB"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -967,6 +1022,17 @@
 				)
 			)
 		)
+		(property "MPN" "CL10B104KB8NNNC"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Mouser" "187-CL10B104KB8NNNC"
 			(at 0 0 0)
 			(show_name no)
@@ -1115,6 +1181,17 @@
 			)
 		)
 		(property "Package_in_inch" "0603"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL10B103KB8WPND"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1283,6 +1360,17 @@
 				)
 			)
 		)
+		(property "MPN" "06033U100JAT2A"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Mouser" "581-06033U100JAT2A"
 			(at 0 0 0)
 			(show_name no)
@@ -1431,6 +1519,17 @@
 			)
 		)
 		(property "Package_in_inch" "0603"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL10A106MA8NRNC"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1599,6 +1698,17 @@
 				)
 			)
 		)
+		(property "MPN" "GRM187R61A226ME15D"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Mouser" "81-GRM187R61A226ME5D"
 			(at 0 0 0)
 			(show_name no)
@@ -1757,6 +1867,17 @@
 				)
 			)
 		)
+		(property "MPN" "EMK107BJ225KA-T"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Mouser" "963-EMK107BJ225KA-T"
 			(at 0 0 0)
 			(show_name no)
@@ -1905,6 +2026,17 @@
 			)
 		)
 		(property "Package_in_inch" "0603"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "C0603C475K8PAC7411"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
