@@ -16,6 +16,7 @@ VALIDATION_RULES_GENERAL = {
     "Reference": {"type": "equals", "value": "R"},
     "Footprint": {"type": "contains_package"},
     "Datasheet": {"type": "not_empty"},
+    "MPN": {"type": "not_empty"},
     "Mouser": {"type": "not_empty"},
     "Digikey": {"type": "not_empty"},
     "LCSC": {"type": "not_empty"},
@@ -48,6 +49,38 @@ symbol_name_parameters = {
             "Tolerance_in_pct": "float",
             "Package_LxW_in_mm": "str",
             "VALIDATION_RULES" : make_validation_rules("L", remove=["Footprint"])
+        },
+        "Crystal":
+        {
+            "Value": "str",
+            "Frequency_Tolerance_in_ppm": "float",
+            "Load_Capacitance_in_pF": "float",
+            "Package_LxW_in_mm": "str",
+            "VALIDATION_RULES" : make_validation_rules("X", remove=["Footprint"])
+        },
+        "VoltageRegulator":
+        {
+            "USE_NAME_PARSING": False,
+            "Value": "str",
+            "VIN_MIN_V": "float",
+            "VIN_MAX_V": "float",
+            "I_OUT_A": "float",
+            "I_VIN_A": "float",
+            "VALIDATION_RULES" : make_validation_rules("U", remove=["Footprint"])
+        },
+        "MCU":
+        {
+            "USE_NAME_PARSING": False,
+            "Value": "str",
+            "V_DD_MAX_V": "float",
+            "I_DD_MAX_A": "float",
+            "VALIDATION_RULES" : make_validation_rules("U", remove=["Footprint"])
+        },
+        "NetworkSwitch":
+        {
+            "USE_NAME_PARSING": False,
+            "Value": "str",
+            "VALIDATION_RULES" : make_validation_rules("U", remove=["Footprint"])
         }
     }
 }
