@@ -99,6 +99,11 @@ symbol_name_parameters = {
             "Impedance_in_Ohm": "float",
             "Freq_Rating_in_GHz": "float",
             "VALIDATION_RULES": make_validation_rules("J", remove=["Footprint"])
+        },
+        "Conn-Data":
+        {
+            "USE_NAME_PARSING": False,
+            "VALIDATION_RULES": make_validation_rules("J", remove=["Footprint"])
         }
     }
 }
