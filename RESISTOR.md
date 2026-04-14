@@ -34,6 +34,7 @@ R_10K_0.1W_1pct_0603
 - **Power_in_W**: The power the resistor can handle in Watts.
 - **Tolerance_in_pct**: Resistor value tolerance in percent.
 - **Package_in_inch**: The package size in inch.
+- **MPN**: Manufacturer Part Number.
 - **Mouser**: Order number of this component at Mouser.
 - **Digikey**: Order number of this component at Digikey. Make sure to provide the **Cut Tape (CT)** number.
 - **LCSC**: Order number of a component with exact same characteristics at LCSC (https://lcsc.com).
@@ -49,6 +50,7 @@ R_10K_0.1W_1pct_0603
 | Power_in_W        | 0.1                                                                               | 0     | 0         | Center    | Center    | 0         | 0     |
 | Tolerance_in_pct  | 1                                                                                 | 0     | 0         | Center    | Center    | 0         | 0     |
 | Package_in_inch   | 0603                                                                              | 0     | 0         | Center    | Center    | 0         | 0     |
+| MPN               | RC0603FR-0710KL                                                                   | 0     | 0         | Center    | Center    | 0         | 0     |
 | Mouser            | 603-RC0603FR-0710KL                                                               | 0     | 0         | Center    | Center    | 0         | 0     |
 | Digikey           | 311-10.0KHRCT-ND                                                                  | 0     | 0         | Center    | Center    | 0         | 0     |
 | Farnell           | 2421850                                                                           | 0     | 0         | Center    | Center    | 0         | 0     |

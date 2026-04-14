@@ -37,6 +37,7 @@ C_100n_10V_10pct_X7R_0603
 - **Tolerance_in_pct**: Capacitor value tolerance in %.
 - **Dielectric**: Dielectric parameter.
 - **Package_in_inch**: The package size in inch.
+- **MPN**: Manufacturer Part Number.
 - **Mouser**: Order number of this component at Mouser.
 - **Digikey**: Order number of this component at Digikey. Make sure to provide the **Cut Tape (CT)** number.
 - **Farnell**: Order number of this component at Farnell.
@@ -54,6 +55,7 @@ C_100n_10V_10pct_X7R_0603
 | Tolerance_in_pct  | 10                                                                                    | 0     | 0         | Center    | Center    | 0         | 0     |
 | Dielectric        | X7R                                                                                   | 0     | 0         | Center    | Center    | 0         | 0     |
 | Package_in_inch   | 0603                                                                                  | 0     | 0         | Center    | Center    | 0         | 0     |
+| MPN               | CL10B104KB8NNNC                                                                       | 0     | 0         | Center    | Center    | 0         | 0     |
 | Mouser            | 187-CL10B104KB8NNNC                                                                   | 0     | 0         | Center    | Center    | 0         | 0     |
 | Digikey           | 1276-1000-1-ND                                                                        | 0     | 0         | Center    | Center    | 0         | 0     |
 | Farnell           | 4539043                                                                               | 0     | 0         | Center    | Center    | 0         | 0     |
