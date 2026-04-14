@@ -329,7 +329,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "Conn_{}"
+	(symbol "Conn-Power_{}"
 		(pin_names
 			(hide yes)
 		)
@@ -502,7 +502,7 @@
 				)
 			)
 		)
-		(symbol "Conn_{}_0_1"
+		(symbol "Conn-Power_{}_0_1"
 			(rectangle
 				(start -5.08 3.81)
 				(end 5.08 -3.81)
@@ -598,7 +598,7 @@
 				)
 			)
 		)
-		(symbol "Conn_{}_1_1"
+		(symbol "Conn-Power_{}_1_1"
 			(pin passive line
 				(at 7.62 2.54 180)
 				(length 2.54)
