@@ -90,6 +90,15 @@ symbol_name_parameters = {
             "I_max_in_A": "float",
             "V_max_in_A": "float",
             "VALIDATION_RULES": make_validation_rules("J", remove=["Footprint"])
+        },
+        "Conn-RF":
+        {
+            "Shape": "str",
+            "Gender": "str",
+            "Orientation": "str",
+            "Impedance_in_Ohm": "float",
+            "Freq_Rating_in_GHz": "float",
+            "VALIDATION_RULES": make_validation_rules("J", remove=["Footprint"])
         }
     }
 }

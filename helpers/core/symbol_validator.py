@@ -48,6 +48,9 @@ class SymbolValidator:
                     v1 = val1[param]
                     v2 = val2.get(param)
 
+                    if not v1 or not v2:
+                        raise ValueError(f"Could not extract value for {param}.")
+
                     if cast_type == "float":
                         v1 = float(v1)
                         v2 = float(v2)
