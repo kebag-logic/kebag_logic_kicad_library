@@ -81,6 +81,15 @@ symbol_name_parameters = {
             "USE_NAME_PARSING": False,
             "Value": "str",
             "VALIDATION_RULES" : make_validation_rules("U", remove=["Footprint"])
+        },
+        "Conn-Power":
+        {
+            "USE_NAME_PARSING": False,
+            "Outer_Diameter_in_mm": "float",
+            "Inner_Diameter_in_mm": "float",
+            "I_max_in_A": "float",
+            "V_max_in_A": "float",
+            "VALIDATION_RULES": make_validation_rules("J", remove=["Footprint"])
         }
     }
 }
