@@ -7,7 +7,7 @@
 		(at 0 -3.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "7bf41fe5-aedb-4934-a83f-a591c72403cc")
+		(uuid "a0fe080e-4198-4660-aa8f-4070c0c78c73")
 		(effects
 			(font
 				(size 1 1)
@@ -20,7 +20,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "e80f3a34-56e8-4812-8984-1509a1612694")
+		(uuid "6ceb148c-d8a5-4745-a13e-65c138292491")
 		(effects
 			(font
 				(size 1 1)
@@ -33,7 +33,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "3403529c-ad65-4e3a-814a-71270fcbb48c")
+		(uuid "a2018ccf-58a4-40c2-bfda-b244d971d73b")
 		(effects
 			(font
 				(size 1 1)
@@ -46,7 +46,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "2194cc69-bd30-4736-a81f-1046d0b89ff3")
+		(uuid "3d14e564-08bf-4128-8e6b-21bffd6df032")
 		(effects
 			(font
 				(size 1 1)
@@ -171,4 +171,15 @@
 		(uuid "84f4f955-382f-473f-92f2-81ab7cf1ba75")
 	)
 	(embedded_fonts no)
+	(model "${KL_LIB}/3dmodels/Crystal.3dshapes/VXM7_MCH.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -90)
+		)
+	)
 )
