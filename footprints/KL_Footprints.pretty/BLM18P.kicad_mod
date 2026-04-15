@@ -7,7 +7,7 @@
 		(at 0 -2.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "a3bbf51c-547d-45cd-a6e6-7845e5399f17")
+		(uuid "32d12aec-2d68-466a-9b6c-bfb0011fe9ed")
 		(effects
 			(font
 				(size 1 1)
@@ -20,7 +20,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "074ffb5a-0123-4a6c-8694-49cb9fc7edf0")
+		(uuid "c894adfc-ff27-4dc9-9aa5-a8689b1021e0")
 		(effects
 			(font
 				(size 1 1)
@@ -33,7 +33,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "f00b0e8f-ca61-4829-995d-da0db40104fb")
+		(uuid "ad0e3830-e232-4c8e-913e-3736ee56b74d")
 		(effects
 			(font
 				(size 1 1)
@@ -46,7 +46,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "374b3fae-9363-442c-ab47-d28f34cd7504")
+		(uuid "982387da-0d6d-4097-aed9-a4456ee4b681")
 		(effects
 			(font
 				(size 1 1)
@@ -125,4 +125,15 @@
 		(uuid "3ec648c8-c8db-451a-81d2-17cc0fb69a78")
 	)
 	(embedded_fonts no)
+	(model "${KL_LIB}/3dmodels/Ferrite_Bead.3dshapes/BLM18PG330SN1D.stp"
+		(offset
+			(xyz 0 -0.4 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )
