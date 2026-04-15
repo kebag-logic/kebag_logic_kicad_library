@@ -4,7 +4,7 @@ The naming scheme for all power connectors is as follows:
 ```
 Con_{SigType}_{Shape}_{KeyParameters}
 ```
-For a DC barrel connector with 5.5mm outer and 2.5mm inner diamert, this would result in
+For a DC barrel connector with 5.5mm outer and 2.5mm inner diameter, this would result in
 ```
 Con_{SigType}_{Shape}_{Outer_Diam_in_mm}x{Inner_Diam_in_mm}
 Con_DC_Barrel_5.5mmx2.5mm
@@ -41,7 +41,6 @@ Con_DC_Barrel_5.5mmx2.5mm
 - **MPN**: Manufacturer Part Number.
 - **Mouser**: Order number of this component at Mouser.
 - **Digikey**: Order number of this component at Digikey. Make sure to provide the **Cut Tape (CT)** number.
-- **Farnell**: Order number of this component at Farnell.
 - **LCSC**: Order number of a component with exact same characteristics at LCSC (https://lcsc.com).
 
 ## Power Connector full example
