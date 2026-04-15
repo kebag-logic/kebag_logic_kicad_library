@@ -104,6 +104,15 @@ symbol_name_parameters = {
         {
             "USE_NAME_PARSING": False,
             "VALIDATION_RULES": make_validation_rules("J", remove=["Footprint"])
+        },
+        "Header":
+        {
+            "No_of_pins": "float",
+            "No_of_rows": "float",
+            "Pitch_pin_in_mm": "float",
+            "Pitch_row_in_mm": "float",
+            "Orientation": "str",
+            "VALIDATION_RULES": make_validation_rules("J", remove=["Footprint"])
         }
     }
 }

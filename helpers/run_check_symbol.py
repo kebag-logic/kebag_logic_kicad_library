@@ -30,26 +30,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-
-# import argparse
-# from core.kicad_symbol_parser import KiCadSymbolLib
-
-# def main():
-
-#     parser = argparse.ArgumentParser(
-#         description="Check a library for consistency"
-#     )
-#     parser.add_argument(
-#         "symbol_lib",
-#         type=str,
-#         help="Path to the symbol lib"
-#     )
-
-#     args = parser.parse_args()
-
-#     lib = KiCadSymbolLib(symbol_lib=args.symbol_lib)
-#     _ = lib.validate_library()
-
-# if __name__ == "__main__":
-#     main()

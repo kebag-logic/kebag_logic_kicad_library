@@ -20,10 +20,10 @@ class SymbolValidator:
         results = {}
 
         for name, prop_dict in properties.items():
+            print(f"name: {name}")
             if reference_entry[0] in name:
                 continue
 
-            # val1 = self.parse_symbol_name(name)
             val1 = {}
 
             if self.use_name_parsing:
@@ -44,11 +44,12 @@ class SymbolValidator:
             # --- 1. Compare name-derived parameters ---
             if self.use_name_parsing:
                 for param, cast_type in self.expected_params.items():
-                    # print(f"param: {param}")
                     v1 = val1[param]
                     v2 = val2.get(param)
 
-                    if not v1 or not v2:
+                    if v1 is None or v2 is None:
+                        print(f"v1: {v1}")
+                        print(f"v2: {v2}")
                         raise ValueError(f"Could not extract value for {param}.")
 
                     if cast_type == "float":
@@ -127,7 +128,17 @@ class SymbolValidator:
         if not symbol_name.startswith(self.symbol_type + "_"):
             raise ValueError(f"{symbol_name} does not match symbol type {self.symbol_type}")
 
-        parts = symbol_name[len(self.symbol_type) + 1:].split("_")
+        raw = symbol_name[len(self.symbol_type) + 1:]
+
+        if self.symbol_type == "Header":
+            first, rest = raw.split("_", 1)
+            first = first.replace("x", "_")  # normalize only pins_rows
+
+            normalized = first + "_" + rest
+        else:
+            normalized = raw
+
+        parts = normalized.split("_")
 
         result = {}
 
