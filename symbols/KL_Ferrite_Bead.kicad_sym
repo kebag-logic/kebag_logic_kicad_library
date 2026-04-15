@@ -219,7 +219,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KL_Footprints:BLM18P"
+		(property "Footprint" "KL_Footprints:FB_0603"
 			(at 6.858 16.002 0)
 			(show_name no)
 			(do_not_autoplace no)

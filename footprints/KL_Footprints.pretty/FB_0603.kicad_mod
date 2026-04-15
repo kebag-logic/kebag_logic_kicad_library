@@ -1,26 +1,14 @@
-(footprint "BLM18P"
+(footprint "FB_0603"
 	(version 20260206)
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(layer "F.Cu")
-	(property "Reference" "REF**"
-		(at 0 -2.5 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "32d12aec-2d68-466a-9b6c-bfb0011fe9ed")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Value" "BLM18P"
+	(property "Value" "FB_0603"
 		(at 0.5 -11.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "c894adfc-ff27-4dc9-9aa5-a8689b1021e0")
+		(uuid "d669f7f3-c5eb-43c5-83c8-7ec59ef81842")
 		(effects
 			(font
 				(size 1 1)
@@ -33,7 +21,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "ad0e3830-e232-4c8e-913e-3736ee56b74d")
+		(uuid "bc4792a9-10bf-4fbe-841f-5625c03a367e")
 		(effects
 			(font
 				(size 1 1)
@@ -46,7 +34,19 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "982387da-0d6d-4097-aed9-a4456ee4b681")
+		(uuid "dc3cbbf8-2b2f-4b13-b220-8a1ccc7758f5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Reference" "REF**"
+		(at 0 -1.43 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "e7bc9236-fb67-406e-9f99-bf59460c9a59")
 		(effects
 			(font
 				(size 1 1)
@@ -64,7 +64,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "ab1d1b8c-6139-4f91-8848-6bc2f464503d")
+		(uuid "e13dbcfe-a18f-48ae-9cc2-fb7517f18a8c")
 	)
 	(fp_line
 		(start -0.125 0.4)
@@ -74,18 +74,18 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "bb9d5041-080d-44ee-ac64-7112d300d256")
+		(uuid "d443cd49-cf3c-4893-bfcf-e0f7fbdb295d")
 	)
 	(fp_rect
-		(start -1.5 -1)
-		(end 1.5 1)
+		(start -1.5 -0.75)
+		(end 1.5 0.75)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "053e5ac6-4e0f-4c59-b9b7-108b0fbc325f")
+		(uuid "816cb10e-3114-4003-a8ba-f0437966cb15")
 	)
 	(fp_rect
 		(start -0.8 -0.4)
@@ -96,13 +96,13 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "bf24be93-a4ce-49bf-8b1b-4a408a7e3968")
+		(uuid "579a9c27-091e-4b66-8688-638bfb3a0baf")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 -2.5 0)
+		(at 0 -1.43 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "d1b6ec55-1133-4626-a552-d31bedd8d158")
+		(uuid "ee3c3afc-4ead-4797-8c72-518070eb69c6")
 		(effects
 			(font
 				(size 1 1)
@@ -115,14 +115,14 @@
 		(size 0.85 0.7)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
-		(uuid "9e2c9428-16b1-462d-9a98-7958c45c8903")
+		(uuid "88604c43-e7ff-4b27-b372-93f230e96c3a")
 	)
 	(pad "2" smd roundrect
 		(at 0.825 0)
 		(size 0.85 0.7)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
-		(uuid "3ec648c8-c8db-451a-81d2-17cc0fb69a78")
+		(uuid "d9c775ee-616f-4f4f-8429-58f72064af58")
 	)
 	(embedded_fonts no)
 	(model "${KL_LIB}/3dmodels/Ferrite_Bead.3dshapes/BLM18PG330SN1D.stp"
