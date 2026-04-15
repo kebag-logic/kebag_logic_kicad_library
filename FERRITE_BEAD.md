@@ -13,7 +13,7 @@ This would result in
 FB_33R_3A
 ```
 
-## Resistor footprint and package rules
+## Ferrite Bead footprint and package rules
 
 - Each ferrite bead must be derived from the `FB_{Value}_{Max_current_in_A}` template.
 - Preferred SMD size (in inch): 0603. Exceptions allowed if the required value is not available in 0603.
@@ -28,13 +28,14 @@ FB_33R_3A
 - Field names are fixed and must not be changed.
 - Units are encoded in the field name to allow automated BOM processing.
 ---
+- **Value**: The impedance of the component at 100MHz.
 - **Max_current_in_A**: Max. current rating of this component.
 - **MPN**: Manufacturer Part Number.
 - **Mouser**: Order number of this component at Mouser.
 - **Digikey**: Order number of this component at Digikey. Make sure to provide the **Cut Tape (CT)** number.
 - **LCSC**: Order number of a component with exact same characteristics at LCSC (https://lcsc.com).
 
-## Resistor, full example
+## Ferrite Bead, full example
 | Name              | Value                                                                             | Show  | Show Name | H Align   | V Align   | Italic    | Bold  |
 |-                  |-                                                                                  |-      |-          |-          |-          |-          |-      |
 | Reference         | FB                                                                                | 1     | 0         | Center    | Center    | 0         | 0     |
@@ -44,9 +45,9 @@ FB_33R_3A
 | Description       | Ferrite Bead                                                                      | 0     | 0         | Center    | Center    | 0         | 0     |
 | Max_current_in_A  | 3                                                                                 | 0     | 0         | Center    | Center    | 0         | 0     |
 | MPN               | BLM18PG330SN1D                                                                    | 0     | 0         | Center    | Center    | 0         | 0     |
-| Mouser            | 490-5220-1-ND                                                                     | 0     | 0         | Center    | Center    | 0         | 0     |
-| Digikey           | 311-10.0KHRCT-ND                                                                  | 0     | 0         | Center    | Center    | 0         | 0     |
-| LCSC              | C98220                                                                            | 0     | 0         | Center    | Center    | 0         | 0     |
+| Mouser            | 81-BLM18PG330SN1D                                                                 | 0     | 0         | Center    | Center    | 0         | 0     |
+| Digikey           | 490-5220-1-ND                                                                  | 0     | 0         | Center    | Center    | 0         | 0     |
+| LCSC              | C88984                                                                            | 0     | 0         | Center    | Center    | 0         | 0     |
 
 ## Validation
 
