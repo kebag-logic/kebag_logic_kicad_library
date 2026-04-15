@@ -1,13 +1,13 @@
 (footprint "SMA_Right_Angle"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -5.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "b293c426-ff83-439c-9b47-b4e7ee7909f2")
+		(uuid "d1226443-eecd-4295-8431-6d3a5127f6f3")
 		(effects
 			(font
 				(size 1 1)
@@ -20,7 +20,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "af59cfee-1752-46d8-800d-53852d5fa132")
+		(uuid "592b177c-b559-42d1-b32d-121e415d2b72")
 		(effects
 			(font
 				(size 1 1)
@@ -33,7 +33,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "9c7f7df7-c63f-48d4-b475-2cb6634088c0")
+		(uuid "4dcb6515-389f-434f-90e6-1531bfd1f5e5")
 		(effects
 			(font
 				(size 1 1)
@@ -46,7 +46,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "2b8beaef-2cb1-4199-8186-541ab267e497")
+		(uuid "1f2aac86-8d67-4e9a-866b-b465f15c7cf4")
 		(effects
 			(font
 				(size 1 1)
@@ -55,6 +55,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -3.5 1)
 		(end -3.5 -1)
@@ -63,7 +64,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "0151d0c3-822b-4f4a-a676-4ab1115b5e17")
+		(uuid "4dc7cdcd-6613-4e56-af99-a7f23a54e914")
 	)
 	(fp_line
 		(start -1 -3.5)
@@ -73,7 +74,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "61dc4da9-a7e7-4b7e-b9d7-5bcfd7608c94")
+		(uuid "c953144a-c845-421c-aea6-5183b4fa32f7")
 	)
 	(fp_line
 		(start -1 3.5)
@@ -83,7 +84,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "6210425f-89a9-4f63-be05-c350bfc7231e")
+		(uuid "8a9ae834-621d-4ba3-8bb0-fa1e79797b63")
 	)
 	(fp_line
 		(start 3.5 1)
@@ -93,7 +94,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "7eaa2609-750a-431d-a814-4c4efccbaee3")
+		(uuid "101daa89-4747-4a5f-a9fd-3b543761cb4e")
 	)
 	(fp_rect
 		(start -4.5 -4.5)
@@ -104,7 +105,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "ecfae665-7100-4b67-ac9f-059d218f109d")
+		(uuid "6bca1dbd-658c-45bd-af99-71ff3facb7a0")
 	)
 	(fp_rect
 		(start -3.5 -3.5)
@@ -115,7 +116,7 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "b6d3c49a-c5e6-4a2a-8062-d4ee96cda7c2")
+		(uuid "6cb01b6c-bbbf-4cd4-9eb6-a19740fb05ae")
 	)
 	(fp_rect
 		(start -2.675 3.5)
@@ -126,12 +127,12 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "31c7ada2-849f-4b16-9c91-45d9d1338bdd")
+		(uuid "f01fd212-afba-41d1-b189-eb9e6add1e27")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 -5.5 0)
 		(layer "F.Fab")
-		(uuid "df7293b1-9f70-40fc-8e3a-84dd09ff9866")
+		(uuid "b1cc602d-dedb-45c3-8a28-c8b824d24c83")
 		(effects
 			(font
 				(size 1 1)
@@ -145,39 +146,50 @@
 		(drill 1.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "f687bbbb-b159-471c-be79-e461a0ea7032")
+		(uuid "03e9ca87-c56b-4ee0-8a8a-0dabcaa31c8c")
 	)
 	(pad "2" thru_hole circle
-		(at -2.55 -2.55)
+		(at -2.54 -2.54)
 		(size 2.5 2.5)
 		(drill 1.6)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "3da6a1f3-70dc-4f3d-887e-5892b27007da")
+		(uuid "4d541699-ca18-4a7a-865a-f2240e183c17")
 	)
 	(pad "2" thru_hole circle
-		(at -2.55 2.55)
+		(at -2.54 2.54)
 		(size 2.5 2.5)
 		(drill 1.6)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "69b11225-ac28-453a-b154-528563960396")
+		(uuid "53c59655-72e5-4f29-8c0b-e272519d98fe")
 	)
 	(pad "2" thru_hole circle
-		(at 2.55 -2.55)
+		(at 2.54 -2.54)
 		(size 2.5 2.5)
 		(drill 1.6)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "c63743df-7d21-4f94-b818-fe02d571df78")
+		(uuid "fc3e5bfc-d249-4915-b1c8-282de7d4b9ac")
 	)
 	(pad "2" thru_hole circle
-		(at 2.55 2.55)
+		(at 2.54 2.54)
 		(size 2.5 2.5)
 		(drill 1.6)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "08d26e59-4c87-4681-ac9e-31a6cf484e4a")
+		(uuid "9696c4c0-9ea5-4207-9190-c8739e3da3ad")
 	)
 	(embedded_fonts no)
+	(model "${KL_LIB}/3dmodels/Connector_RF.3dshapes/RFPC-SMA27-F_1.0.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )

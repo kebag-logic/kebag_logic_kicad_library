@@ -51,7 +51,7 @@ class KiCadSymbolParser(KiCadBase):
             if '{' in name and '}' in name:
                 print(f"Found reference: {name}")
                 return name, sym_expr
-        raise KeyError("Could not find reference symbol")
+        raise KeyError(f"Could not find reference symbol in {self.properties.keys()}")
 
     def extract_symbol_type(self):
         symbol_name = self.reference_entry[0]
