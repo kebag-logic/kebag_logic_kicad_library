@@ -114,6 +114,12 @@ symbol_name_parameters = {
             "Orientation": "str",
             "VALIDATION_RULES": make_validation_rules("J", remove=["Footprint"])
         },
+                "FB":
+        {
+            "Value": "str",
+            "Max_current_in_A": "float",
+            "VALIDATION_RULES": make_validation_rules("FB", remove=["Footprint"])
+        },
         "LED":
         {
             "Color": "str",

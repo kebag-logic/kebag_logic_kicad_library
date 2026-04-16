@@ -1,5 +1,7 @@
 __pycache__/
+.vscode/
 
 .DS_Store
 *.bak
+
 helpers/current_consumption.md
