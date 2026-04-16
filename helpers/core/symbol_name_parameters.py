@@ -113,6 +113,12 @@ symbol_name_parameters = {
             "Pitch_row_in_mm": "float",
             "Orientation": "str",
             "VALIDATION_RULES": make_validation_rules("J", remove=["Footprint"])
+        },
+        "FB":
+        {
+            "Value": "str",
+            "Max_current_in_A": "float",
+            "VALIDATION_RULES": make_validation_rules("FB", remove=["Footprint"])
         }
     }
 }
