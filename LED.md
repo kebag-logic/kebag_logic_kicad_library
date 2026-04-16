@@ -20,12 +20,15 @@ LED_red_2V_0.03A_0603
 - Each LED must be derived from the `LED_{color}_{U_F_in_V}_{I_F_in_A}_{Package_in_inch}` template.
 - The footprint must match the package size defined in the `Package_in_inch` field.
 - Preferred SMD size (in inch): 0603. Exceptions allowed if the required value is not available in 0603.
-- LED values are written without the SI Unit. Values <= 1K are entered with an R as postfix. E.g. `0R`.
-- The kilo, mega, ... postfixes are written in capital letters.
 - Links to datasheets must link directly to the manufacturer. Supplier datasheets are to be avoided where possible.
 - Only the Label field is visible by default.
 - The reference designator prefix must remain `D` and must not be fixed in the symbol.
 - The LABEL field is used to create the actual reference designator. Please do not overwrite it.
+
+# Cathode identification
+- Pin 1 is always the cathode
+- Pin 2 is always the anode
+- Footprint: The cathode of the LED shall be enclosed by a rectangle on the silk screen.
 
 ## Custom fields
 
