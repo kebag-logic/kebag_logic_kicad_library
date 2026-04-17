@@ -2939,7 +2939,7 @@
 		)
 		(property "Tolerance_in_pct" "1"
 			(at 0 0 0)
-			(show_name yes)
+			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
 			(effects
