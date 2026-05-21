@@ -1294,7 +1294,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://datasheets.kyocera-avx.com/U-Series.pdf"
+		(property "Datasheet" "https://yageogroup.com/download/specsheet/CC0603JRNPO8BN100"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1360,7 +1360,7 @@
 				)
 			)
 		)
-		(property "MPN" "06033U100JAT2A"
+		(property "MPN" "CC0603JRNPO8BN100"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1371,7 +1371,7 @@
 				)
 			)
 		)
-		(property "Mouser" "581-06033U100JAT2A"
+		(property "Mouser" "603-CC0603JRNP8BN100"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1382,7 +1382,7 @@
 				)
 			)
 		)
-		(property "Digikey" "06033U100JAT2A-ND"
+		(property "Digikey" "13-CC0603JRNPO8BN100CT-ND"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1393,7 +1393,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2229848"
+		(property "LCSC" "C1853175"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1766,7 +1766,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "C_2u2_10V_20pct_Y5V_0603"
+	(symbol "C_2u2_35V_20pct_X5R_0603"
 		(extends "C_{Value}_{Voltage_in_V}_{Tolerance_in_pct}_{Dielectric}_{Package_in_inch}")
 		(property "Reference" "C"
 			(at 0.635 2.54 0)
@@ -1801,7 +1801,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "file:///home/alex/Downloads/MLASE168SB5225KTNA01_SS.pdf"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R6YA225MA12-01.pdf"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1823,7 +1823,7 @@
 				)
 			)
 		)
-		(property "Voltage_in_V" "10"
+		(property "Voltage_in_V" "35"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1845,7 +1845,7 @@
 				)
 			)
 		)
-		(property "Dielectric" "Y5V"
+		(property "Dielectric" "X5R"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1867,7 +1867,7 @@
 				)
 			)
 		)
-		(property "MPN" "EMK107BJ225KA-T"
+		(property "MPN" "GRM188R6YA225MA12D"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1878,7 +1878,7 @@
 				)
 			)
 		)
-		(property "Mouser" "963-EMK107BJ225KA-T"
+		(property "Mouser" "81-GRM188R6YA225MA2D"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1889,7 +1889,7 @@
 				)
 			)
 		)
-		(property "Digikey" "587-1430-1-ND"
+		(property "Digikey" "490-10486-1-ND"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1900,7 +1900,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C76612"
+		(property "LCSC" "C710921"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
