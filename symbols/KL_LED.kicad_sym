@@ -416,7 +416,7 @@
 				)
 			)
 		)
-		(property "LCSC" "LTST-C190GKT"
+		(property "LCSC" "C125093"
 			(at -21.336 4.064 0)
 			(show_name no)
 			(do_not_autoplace no)
