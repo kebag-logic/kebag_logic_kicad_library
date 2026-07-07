@@ -1,0 +1,206 @@
+(footprint "BEL_1840888-1"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "RJ45 jack with integrated 10/100/1000Base-T magnetics, 1840888-1, through hole")
+	(tags "RJ45 magjack ethernet 1840888-1")
+	(property "Reference" "REF**"
+		(at 0 -11.95 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "525eaa49-d0e8-45d9-9c30-c7712a50d8e8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "BEL_1840888-1"
+		(at 0 11.9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "761a0398-6bbd-44ff-9321-57b11b475d32")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ad48d580-e813-43a7-9ba6-0ea4cb0b51e4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "RJ45 jack with integrated 10/100/1000Base-T magnetics, 1840888-1, through hole"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8fccb788-38d0-441e-9bc7-20cfb6748a78")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -9.335 -10.85)
+		(end 9.335 -10.85)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "18226a36-80b3-4bb1-9847-0a174d8f06f1")
+	)
+	(fp_line
+		(start 9.335 -10.85)
+		(end 9.335 10.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "06dac075-92d6-4328-b952-ff6b8547f7e6")
+	)
+	(fp_line
+		(start 9.335 10.8)
+		(end -9.335 10.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "66625892-7886-44cb-9194-b8f086870f3f")
+	)
+	(fp_line
+		(start -9.335 10.8)
+		(end -9.335 -10.85)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dbd087c0-7da0-499a-b581-e065a9ae81b0")
+	)
+	(fp_line
+		(start -9.335 -10.85)
+		(end 9.335 -10.85)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "183d1e4e-65c9-4c02-8770-b859ad5454a1")
+	)
+	(fp_line
+		(start 9.335 -10.85)
+		(end 9.335 10.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4fa12166-4f20-4d16-88c3-6a1a25d57369")
+	)
+	(fp_line
+		(start 9.335 10.8)
+		(end -9.335 10.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b1e49e33-13df-4619-8ed3-4ebce235ab85")
+	)
+	(fp_line
+		(start -9.335 10.8)
+		(end -9.335 -10.85)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7b4f1b30-a60c-4251-a7d6-dcf5ae8fa58b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "612188a6-8b74-4daf-bb9c-e0b660d26f7a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -9.54 -11.05)
+		(end 9.54 -11.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a483bd4b-6b92-4acd-a42e-b3255c4aad12")
+	)
+	(fp_line
+		(start 9.54 -11.05)
+		(end 9.54 11.0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "eda2319b-c806-493b-b2ff-f518ca9ea64f")
+	)
+	(fp_line
+		(start 9.54 11.0)
+		(end -9.54 11.0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b2adb3c6-a1d1-478d-be6b-75114d4ed3d4")
+	)
+	(fp_line
+		(start -9.54 11.0)
+		(end -9.54 -11.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d5f4afd6-faaa-4ced-8a19-062973c7f2a4")
+	)
+	(pad "" np_thru_hole circle (at -5.715 0.0) (size 3.25 3.25) (drill 3.25) (layers "*.Cu" "*.Mask"))
+	(pad "" np_thru_hole circle (at 5.715 0.0) (size 3.25 3.25) (drill 3.25) (layers "*.Cu" "*.Mask"))
+	(pad "1" thru_hole rect (at -5.715 -8.89) (size 1.478 1.478) (drill 0.97) (layers "*.Cu" "*.Mask") (solder_mask_margin 0.102))
+	(pad "2" thru_hole circle (at -4.445 -6.35) (size 1.478 1.478) (drill 0.97) (layers "*.Cu" "*.Mask") (solder_mask_margin 0.102))
+	(pad "3" thru_hole circle (at -3.175 -8.89) (size 1.478 1.478) (drill 0.97) (layers "*.Cu" "*.Mask") (solder_mask_margin 0.102))
+	(pad "4" thru_hole circle (at -1.905 -6.35) (size 1.478 1.478) (drill 0.97) (layers "*.Cu" "*.Mask") (solder_mask_margin 0.102))
+	(pad "5" thru_hole circle (at -0.635 -8.89) (size 1.478 1.478) (drill 0.97) (layers "*.Cu" "*.Mask") (solder_mask_margin 0.102))
+	(pad "6" thru_hole circle (at 0.635 -6.35) (size 1.478 1.478) (drill 0.97) (layers "*.Cu" "*.Mask") (solder_mask_margin 0.102))
+	(pad "7" thru_hole circle (at 1.905 -8.89) (size 1.478 1.478) (drill 0.97) (layers "*.Cu" "*.Mask") (solder_mask_margin 0.102))
+	(pad "8" thru_hole circle (at 3.175 -6.35) (size 1.478 1.478) (drill 0.97) (layers "*.Cu" "*.Mask") (solder_mask_margin 0.102))
+	(pad "9" thru_hole circle (at 4.445 -8.89) (size 1.478 1.478) (drill 0.97) (layers "*.Cu" "*.Mask") (solder_mask_margin 0.102))
+	(pad "10" thru_hole circle (at 5.715 -6.35) (size 1.478 1.478) (drill 0.97) (layers "*.Cu" "*.Mask") (solder_mask_margin 0.102))
+	(pad "S1" thru_hole circle (at -7.745 -3.04) (size 2.475 2.475) (drill 1.65) (layers "*.Cu" "*.Mask") (solder_mask_margin 0.102))
+	(pad "S2" thru_hole circle (at 7.745 -3.04) (size 2.475 2.475) (drill 1.65) (layers "*.Cu" "*.Mask") (solder_mask_margin 0.102))
+)
