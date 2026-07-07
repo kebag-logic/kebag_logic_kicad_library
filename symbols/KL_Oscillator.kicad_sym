@@ -242,6 +242,7 @@
 	(symbol "Oscillator_25M_25ppm_HCMOS_2.5x2.0"
 		(pin_names
 			(offset 1.016)
+			(hide yes)
 		)
 		(exclude_from_sim no)
 		(in_bom yes)
