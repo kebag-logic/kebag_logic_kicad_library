@@ -37,6 +37,10 @@ In the following steps we assume the library is located at: `~/kebag_logic_kicad
         | KL_MCU                  | {$KL_LIB}/symbols/KL_MCU.kicad_sym                | Contains all MCUs |
         | KL_Connector            | {$KL_LIB}/symbols/KL_Connector.kicad_sym          | Conntains all connectors |
         | KL_LED                  | {$KL_LIB}/symbols/KL_LED.kicad_sym                | Contains all LEDs |
+        | KL_Transistor           | {$KL_LIB}/symbols/KL_Transistor.kicad_sym         | Contains all transistors |
+        | KL_Oscillator           | {$KL_LIB}/symbols/KL_Oscillator.kicad_sym         | Contains all active oscillators |
+        | KL_PHY                  | {$KL_LIB}/symbols/KL_PHY.kicad_sym                | Contains all Ethernet PHYs |
+        | KL_Module               | {$KL_LIB}/symbols/KL_Module.kicad_sym             | Contains all board modules |
 
     5. Confirm with **OK**
     6. The libraries are now available in the Symbol Chooser.
