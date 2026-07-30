@@ -5310,7 +5310,7 @@
 				)
 			)
 		)
-		(property "Digikey" "TBD"
+		(property "Digikey" "541-4691-1-ND"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5321,7 +5321,7 @@
 				)
 			)
 		)
-		(property "LCSC" "TBD"
+		(property "LCSC" "C1730800"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
