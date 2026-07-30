@@ -978,7 +978,7 @@
 				)
 			)
 		)
-		(property "Digikey" "TBD"
+		(property "Digikey" "160-1179-1-ND"
 			(at 0 -8.89 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -989,7 +989,7 @@
 				)
 			)
 		)
-		(property "LCSC" "LTST-C190GKT"
+		(property "LCSC" "C125090"
 			(at -21.336 4.064 0)
 			(show_name no)
 			(do_not_autoplace no)
