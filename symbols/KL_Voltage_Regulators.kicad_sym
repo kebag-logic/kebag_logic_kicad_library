@@ -747,7 +747,7 @@
 				)
 			)
 		)
-		(property "Digikey" "TBD"
+		(property "Digikey" "296-TPS7A2025PDBVRCT-ND"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -758,7 +758,7 @@
 				)
 			)
 		)
-		(property "LCSC" "TBD"
+		(property "LCSC" "C2869949"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
