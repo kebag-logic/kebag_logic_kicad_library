@@ -355,7 +355,7 @@
 				)
 			)
 		)
-		(property "Digikey" "TBD"
+		(property "Digikey" "XC2752TR-ND"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
