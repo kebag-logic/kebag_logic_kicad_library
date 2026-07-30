@@ -4628,7 +4628,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "TBD"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2312031643_TRP-Connector-1840888-1_C5876366.pdf"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4672,7 +4672,7 @@
 				)
 			)
 		)
-		(property "Digikey" "TBD"
+		(property "Digikey" "5923-1840888-1-ND"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4683,7 +4683,7 @@
 				)
 			)
 		)
-		(property "LCSC" "TBD"
+		(property "LCSC" "C5876366"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
