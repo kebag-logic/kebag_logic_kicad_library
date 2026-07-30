@@ -1169,7 +1169,7 @@
 				)
 			)
 		)
-		(property "Digikey" "TBD"
+		(property "Digikey" "160-1413-1-ND"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1180,7 +1180,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C7297440"
+		(property "LCSC" "C284931"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
