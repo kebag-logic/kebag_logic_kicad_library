@@ -128,7 +128,7 @@
 				)
 			)
 		)
-		(property "Digikey" "TBD"
+		(property "Digikey" "BSS138LT1GOSCT-ND"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -139,7 +139,7 @@
 				)
 			)
 		)
-		(property "LCSC" "TBD"
+		(property "LCSC" "C82045"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
