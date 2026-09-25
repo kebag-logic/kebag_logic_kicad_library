@@ -203,4 +203,8 @@
 	(pad "10" thru_hole circle (at 5.715 -6.35) (size 1.478 1.478) (drill 0.97) (layers "*.Cu" "*.Mask") (solder_mask_margin 0.102))
 	(pad "S1" thru_hole circle (at -7.745 -3.04) (size 2.475 2.475) (drill 1.65) (layers "*.Cu" "*.Mask") (solder_mask_margin 0.102))
 	(pad "S2" thru_hole circle (at 7.745 -3.04) (size 2.475 2.475) (drill 1.65) (layers "*.Cu" "*.Mask") (solder_mask_margin 0.102))
+	(model "${KL_LIB}/3dmodels/Connector_Bel.3dshapes/BEL_1840888-1_simplified.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0)))
 )
