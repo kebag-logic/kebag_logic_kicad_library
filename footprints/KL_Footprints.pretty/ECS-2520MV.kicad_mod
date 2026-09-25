@@ -246,4 +246,8 @@
 		(uuid "1d6613e4-7b93-4cd3-bea1-8f2ffac3976a")
 	)
 	(embedded_fonts no)
+	(model "${KL_LIB}/3dmodels/Oscillator.3dshapes/Oscillator_SMD_SeikoEpson_SG210-4Pin_2.5x2.0mm.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 90)))
 )

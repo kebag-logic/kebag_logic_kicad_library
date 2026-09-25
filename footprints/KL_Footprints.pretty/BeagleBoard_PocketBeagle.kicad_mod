@@ -977,4 +977,8 @@
 		(uuid "132fe214-a558-457a-be4f-ae0efa1bc637")
 	)
 	(embedded_fonts no)
+	(model "${KL_LIB}/3dmodels/Module.3dshapes/PocketBeagle2.stpZ"
+    (offset (xyz -272.924 283.278 -11.604))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 180 0 -90)))
 )
