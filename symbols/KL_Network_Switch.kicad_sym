@@ -239,10 +239,10 @@
 					)
 				)
 			)
-			(pin output line
+			(pin input line
 				(at -5.08 -80.01 0)
 				(length 5.08)
-				(name "XO"
+				(name "XI"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -257,10 +257,10 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at -5.08 -86.36 0)
 				(length 5.08)
-				(name "XI"
+				(name "XO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3124,10 +3124,10 @@
 					)
 				)
 			)
-			(pin output line
+			(pin input line
 				(at -5.08 -80.01 0)
 				(length 5.08)
-				(name "XO"
+				(name "XI"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3142,10 +3142,10 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at -5.08 -86.36 0)
 				(length 5.08)
-				(name "XI"
+				(name "XO"
 					(effects
 						(font
 							(size 1.27 1.27)
