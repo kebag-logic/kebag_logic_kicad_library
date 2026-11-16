@@ -641,7 +641,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2778666"
+		(property "LCSC" "C6538168"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1388,7 +1388,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW060310K0JNEC"
+		(property "MPN" "0603WAF1002T5E"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1421,7 +1421,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4195694"
+		(property "LCSC" "C25804"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1544,7 +1544,7 @@
 				)
 			)
 		)
-		(property "MPN" "RNCE0603BTE10R0"
+		(property "MPN" "RT0603BRD0710RL"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1577,7 +1577,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2492541"
+		(property "LCSC" "C861082"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2480,7 +2480,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0603FR-1320KL"
+		(property "MPN" "0603WAF2002T5E"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2513,7 +2513,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C308212"
+		(property "LCSC" "C4184"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2636,7 +2636,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0603FR-1022RL"
+		(property "MPN" "0603WAF220JT5E"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2669,7 +2669,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4168692"
+		(property "LCSC" "C23345"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
