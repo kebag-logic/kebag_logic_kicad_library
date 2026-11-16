@@ -267,7 +267,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/SRP7050WA.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C76854.pdf"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -289,7 +289,7 @@
 				)
 			)
 		)
-		(property "I_max_in_A" "19"
+		(property "I_max_in_A" "11"
 			(at 6.35 2.032 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -311,7 +311,7 @@
 				)
 			)
 		)
-		(property "Package_LxW_in_mm" "7.9x7.3"
+		(property "Package_LxW_in_mm" "7.1x6.5"
 			(at 19.812 1.016 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -322,7 +322,7 @@
 				)
 			)
 		)
-		(property "MPN" "SRP7050WA-1R5M"
+		(property "MPN" "SPM6530T-1R5M100"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -355,7 +355,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C19947700"
+		(property "LCSC" "C76854"
 			(at -3.048 2.286 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -401,7 +401,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/eaton-exla1v06-automotive-high-current-molded-inductor-data-sheet-elx1221-en.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5378529.pdf"
 			(at 0 7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -445,7 +445,7 @@
 				)
 			)
 		)
-		(property "Package_LxW_in_mm" "7.2x6.9"
+		(property "Package_LxW_in_mm" "6.6x6.4"
 			(at 0 5.588 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -456,7 +456,7 @@
 				)
 			)
 		)
-		(property "MPN" "EXLA1V0603-3R3-R"
+		(property "MPN" "FEXL0630A-3R3M"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -489,7 +489,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C7189866"
+		(property "LCSC" "C5378529"
 			(at 0 7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
